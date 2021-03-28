@@ -16,5 +16,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>笔记</title>
+      <link>http://localhost:1313/categories/%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Tue, 05 Jan 2016 10:29:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/categories/%E7%AC%94%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>游戏</title>
+      <link>http://localhost:1313/categories/%E6%B8%B8%E6%88%8F/</link>
+      <pubDate>Tue, 27 Oct 2015 10:29:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/categories/%E6%B8%B8%E6%88%8F/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
