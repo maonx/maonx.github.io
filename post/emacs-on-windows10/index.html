@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Windows 10 上流畅使用 Emacs - Maonx - My blog for recording and learning ...</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="maonx" /><meta name="description" content="最近一直有在使用 Emacs，经过对比发现在 Windows 10 上使用 Emacs 真是太痛苦了，因为启动速度很慢很慢，我测试了一下， Windows 10 启动时间一般是 30 秒以上，Linu" /><meta name="keywords" content="maonx, 生活, 记录" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.82.0 with theme even" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/emacs-on-windows10/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.39a3e01cac9473be1356f3572fcfe34b2e363efabad244a99a40f28a812c837e.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="Windows 10 上流畅使用 Emacs" />
+<meta property="og:description" content="最近一直有在使用 Emacs，经过对比发现在 Windows 10 上使用 Emacs 真是太痛苦了，因为启动速度很慢很慢，我测试了一下， Windows 10 启动时间一般是 30 秒以上，Linu" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/emacs-on-windows10/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-03-27T10:29:00&#43;08:00" />
+<meta property="article:modified_time" content="2021-03-27T10:35:11&#43;08:00" />
+
+<meta itemprop="name" content="Windows 10 上流畅使用 Emacs">
+<meta itemprop="description" content="最近一直有在使用 Emacs，经过对比发现在 Windows 10 上使用 Emacs 真是太痛苦了，因为启动速度很慢很慢，我测试了一下， Windows 10 启动时间一般是 30 秒以上，Linu"><meta itemprop="datePublished" content="2021-03-27T10:29:00&#43;08:00" />
+<meta itemprop="dateModified" content="2021-03-27T10:35:11&#43;08:00" />
+<meta itemprop="wordCount" content="564">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Windows 10 上流畅使用 Emacs"/>
+<meta name="twitter:description" content="最近一直有在使用 Emacs，经过对比发现在 Windows 10 上使用 Emacs 真是太痛苦了，因为启动速度很慢很慢，我测试了一下， Windows 10 启动时间一般是 30 秒以上，Linu"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Maonx</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">首页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a>
+  </ul>
+
+  
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Maonx</a>
+</div>
+
+
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">首页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Windows 10 上流畅使用 Emacs</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2021-03-27 </span>
+        <div class="post-category">
+            <a href="/categories/emacs/"> Emacs </a>
+            </div>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#安装-wsl2">安装 WSL2</a>
+          <ul>
+            <li><a href="#配置国内更新源">配置国内更新源</a></li>
+            <li><a href="#安装-emacs">安装 Emacs</a></li>
+          </ul>
+        </li>
+        <li><a href="#安装-x-server">安装 X-server</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <p>最近一直有在使用 Emacs，经过对比发现在 Windows 10 上使用 Emacs 真是太痛苦了，因为启动速度很慢很慢，我测试了一下，
+Windows 10 启动时间一般是 30 秒以上，Linux 下一般 1 秒以内，这个差距太离谱了，同时在 Windows 下打开其他文件内容，
+只要是第一次打开的文件类型，也要卡很长时间，后面再打开同类型的就是秒开了，但还是忍不了这个。Linux 下基本都是秒开。
+试了很多方法和配置，都没有提升，依旧很卡。</p>
+<p>最后终于发现了利用安装 WSL2 ，在其上安装 Emacs，在通过 X-server 软件显示，基本解决了上述问题，本来我想直接在 WSL2
+上使用，结果发现剪贴板无法共用，比较不方便。</p>
+<h2 id="安装-wsl2">安装 WSL2</h2>
+<p>找了很多教程，发现 Windows 官方直接有安装教程，直接使用即可，又好又详细。 <a href="https://docs.microsoft.com/zh-cn/windows/wsl/install-win10">点击链接</a>
+我安装了 <code>Ubuntu 20.04 LTS</code></p>
+<h3 id="配置国内更新源">配置国内更新源</h3>
+<p>选择了<a href="https://mirror.tuna.tsinghua.edu.cn/help/ubuntu/">清华大学软件源</a>，编辑修改 <code>/etc/apt/sources.list</code> ，可以备份此文件，然后全部填写清华软件源。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释</span>
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
+<span class="c1"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse</span>
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
+<span class="c1"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse</span>
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
+<span class="c1"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse</span>
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse
+<span class="c1"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse</span>
+
+<span class="c1"># 预发布软件源，不建议启用</span>
+<span class="c1"># deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse</span>
+<span class="c1"># deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>接着更新软件 <code>sudo apt-get update sudo apt-get upgrade</code></p>
+<h3 id="安装-emacs">安装 Emacs</h3>
+<p><code>sudo apt install emacs</code></p>
+<h4 id="安装-doom-emacs-配置">安装 Doom Emacs 配置</h4>
+<ul>
+<li>
+<p>安装依赖</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">  <span class="c1"># required dependencies</span>
+  sudo apt-get install git ripgrep
+  <span class="c1"># optional dependencies</span>
+  sudo apt-get install fd-find
+</code></pre></td></tr></table>
+</div>
+</div></li>
+<li>
+<p>安装配置</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">  git clone --depth <span class="m">1</span> https://github.com/hlissner/doom-emacs ~/.emacs.d
+  ~/.emacs.d/bin/doom install
+</code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+<h2 id="安装-x-server">安装 X-server</h2>
+<p>选择了开源免费的 <a href="https://sourceforge.net/projects/vcxsrv/">vcxsrv</a> ，下载后默认安装直到完成。</p>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">maonx</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2021-03-27
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      
+      <nav class="post-nav">
+        
+        
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:imaonx@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://twitter.com/maonx" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://github.com/maonx" class="iconfont icon-github" title="github"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2021<span class="heart"><i class="iconfont icon-heart"></i></span><span>maonx</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  <script src="/lib/highlight/highlight.pack.js?v=20171001"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.c99b103c33d1539acf3025e1913697534542c4a5aa5af0ccc20475ed2863603b.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
