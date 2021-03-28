@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title> - Maonx - My blog for recording and learning ...</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="maonx" /><meta name="description" content="title: win7上编译安装64位VIM date: 2015-12-13 13:31:54 tags: Vim msys2 前提 想找一个64位的Vim并且支持Python和Lua功能不容易，所以研究了一天，查了不少资料，" /><meta name="keywords" content="maonx, 生活, 记录" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.82.0 with theme even" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/install-vim-x64-on-win7/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.39a3e01cac9473be1356f3572fcfe34b2e363efabad244a99a40f28a812c837e.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="" />
+<meta property="og:description" content="title: win7上编译安装64位VIM date: 2015-12-13 13:31:54 tags: Vim msys2 前提 想找一个64位的Vim并且支持Python和Lua功能不容易，所以研究了一天，查了不少资料，" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/install-vim-x64-on-win7/" /><meta property="article:section" content="post" />
+
+
+
+<meta itemprop="name" content="">
+<meta itemprop="description" content="title: win7上编译安装64位VIM date: 2015-12-13 13:31:54 tags: Vim msys2 前提 想找一个64位的Vim并且支持Python和Lua功能不容易，所以研究了一天，查了不少资料，">
+
+<meta itemprop="wordCount" content="1306">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="title: win7上编译安装64位VIM date: 2015-12-13 13:31:54 tags: Vim msys2 前提 想找一个64位的Vim并且支持Python和Lua功能不容易，所以研究了一天，查了不少资料，"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Maonx</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">首页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a>
+  </ul>
+
+  
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Maonx</a>
+</div>
+
+
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">首页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title"></h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 0001-01-01 </span>
+        
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#前提">前提</a></li>
+    <li><a href="#编译环境选择和安装">编译环境选择和安装</a>
+      <ul>
+        <li><a href="#选择编译环境">选择编译环境</a></li>
+        <li><a href="#安装msys2编译环境">安装MSYS2编译环境</a></li>
+      </ul>
+    </li>
+    <li><a href="#编译vim">编译Vim</a>
+      <ul>
+        <li><a href="#编译前准备软件安装">编译前准备软件安装</a></li>
+        <li><a href="#设置编译参数文件">设置编译参数文件</a></li>
+        <li><a href="#开始编译">开始编译</a></li>
+        <li><a href="#整理打包编译好的vim">整理打包编译好的Vim</a></li>
+      </ul>
+    </li>
+    <li><a href="#安装vim74-x64">安装Vim74-x64</a></li>
+    <li><a href="#参考资料">参考资料</a></li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <p>title: win7上编译安装64位VIM
+date: 2015-12-13 13:31:54
+tags:</p>
+<ul>
+<li>Vim</li>
+<li>msys2</li>
+</ul>
+<hr>
+<h1 id="前提">前提</h1>
+<p>想找一个64位的Vim并且支持Python和Lua功能不容易，所以研究了一天，查了不少资料，终于成功编译，记录一下。</p>
+<h1 id="编译环境选择和安装">编译环境选择和安装</h1>
+<h2 id="选择编译环境">选择编译环境</h2>
+<p>从网上查看Win上的编译环境 Cygwin、MinGW、MSYS2等，我选了MSYS2作为编译环境，而且MSYS2用Pacman进行包管理 ，用过ArchLinux的比较方便不少。</p>
+<h2 id="安装msys2编译环境">安装MSYS2编译环境</h2>
+<ol>
+<li>
+<p>下载安装<a href="http://sourceforge.net/projects/msys2/">msys2</a>, 默认文件目录为：<code>C:\msys64</code>, 编译环境为以此目录为根目录。</p>
+</li>
+<li>
+<p>修改<code>/etc/pacman.d/</code>目录下3个文件<code>mirrorlist.mingw32, mirrorlist.mingw64,  mirrorlist.msys</code>, 添加软件源提升下载速度：</p>
+<ul>
+<li>添加<code>Server = http://mirrors.ustc.edu.cn/msys2/REPOS/MINGW/i686</code> 到<code>mirrorlist.mingw32</code>文件首行。</li>
+<li>添加<code>Server = http://mirrors.ustc.edu.cn/msys2/REPOS/MINGW/x86_64</code> 到<code>mirrorlist.mingw64</code>文件首行。</li>
+<li>添加<code>Server = http://mirrors.ustc.edu.cn/msys2/REPOS/MSYS2/$arch</code> 到<code>mirrorlist.msys</code>文件首行。</li>
+<li>运行 <code>pacman -Syu</code> 更新</li>
+</ul>
+</li>
+<li>
+<p>安装编译器,调试器,make工具, git <code>pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-gdb mingw-w64-x86_64-make git</code></p>
+</li>
+<li>
+<p>提前安装 <code>pacman -S diffutils</code> ，此包包含 diff 命令，因我在编译过程碰到没有 diff 命令。</p>
+</li>
+</ol>
+<h1 id="编译vim">编译Vim</h1>
+<h2 id="编译前准备软件安装">编译前准备软件安装</h2>
+<ul>
+<li>下载 <a href="https://www.python.org/ftp/python/2.7.9/python-2.7.9.amd64.msi">Python2.7.9(x64)</a> 安装到 <code>C:\Python27</code></li>
+<li>下载 <a href="https://www.python.org/ftp/python/3.4.3/python-3.4.3.amd64.msi">Python3.4.3(x64)</a> 安装到 <code>C:\Python34</code></li>
+<li>下载 <a href="http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.3-x64.exe">Ruby 2.2.3 (x64)</a> 安装到 <code>C:\Ruby22-x64</code></li>
+<li>下载<a href="http://sourceforge.net/projects/luabinaries/files/5.3/Executables/lua-5.3_Win64_bin.zip/download">lua-5.3_Win64_bin.zip</a> 和 <a href="http://sourceforge.net/projects/luabinaries/files/5.3/Windows%20Libraries/Dynamic/lua-5.3_Win64_dllw4_lib.zip/download">lua-5.3_Win64_dllw4_lib.zip</a>，解压2个包到 <code>C:\Lua53</code></li>
+<li>编译电脑系统为Win7 64位 旗舰版</li>
+<li>下载Vim源码</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">cd</span> ~
+git clone https://github.com/tracyone/vim vim-master
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="设置编译参数文件">设置编译参数文件</h2>
+<ul>
+<li>打开64位编译环境 <code>mingw64_shell</code></li>
+<li>进入src文件 <code>cd ~/vim-master/src</code></li>
+<li>复制编译文件 <code>Make_cyg_ming.mak</code> 为<code>custom.mak</code>, 修改<code>custom.mak</code>文件,定制自己要编译的选项.</li>
+<li>修改编译64位vim</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback"># FEATURES=[TINY | SMALL | NORMAL | BIG | HUGE]
+# Set to TINY to make minimal version (few features).
+FEATURES=HUGE
+# Set to one of i386, i486, i586, i686 as the minimum target processor.
+# For amd64/x64 architecture set ARCH=x86-64 .
+ARCH=x86-64
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>修改编译Lua</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback"># ifdef LUA
+ifndef LUA
+LUA=c:/Lua53
+endif
+
+ifndef DYNAMIC_LUA
+DYNAMIC_LUA=yes
+endif
+
+ifndef LUA_VER
+LUA_VER=53
+endif
+
+ifeq (no,$(DYNAMIC_LUA))
+LUA_LIB = -L$(LUA)/lib -llua
+endif
+
+# endif
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>修改编译Python</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback"># ifdef PYTHON
+
+ifndef PYTHON
+PYTHON=c:/Python27
+endif
+
+ifndef DYNAMIC_PYTHON
+DYNAMIC_PYTHON=yes
+endif
+
+ifndef PYTHON_VER
+PYTHON_VER=27
+endif
+
+ifeq (no,$(DYNAMIC_PYTHON))
+PYTHONLIB=-L$(PYTHON)/libs -lpython$(PYTHON_VER)
+endif
+# my include files are in &#39;win32inc&#39; on Linux, and &#39;include&#39; in the standard
+# NT distro (ActiveState)
+ifeq ($(CROSS),no)
+PYTHONINC=-I $(PYTHON)/include
+else
+PYTHONINC=-I $(PYTHON)/win32inc
+endif
+# endif
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>修改编译Python3</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback"># ifdef PYTHON3
+ifndef PYTHON3
+PYTHON3=c:/Python34
+endif
+
+ifndef DYNAMIC_PYTHON3
+DYNAMIC_PYTHON3=yes
+endif
+
+ifndef PYTHON3_VER
+PYTHON3_VER=34
+endif
+
+ifeq (no,$(DYNAMIC_PYTHON3))
+PYTHON3LIB=-L$(PYTHON3)/libs -lPYTHON$(PYTHON3_VER)
+endif
+
+ifeq ($(CROSS),no)
+PYTHON3INC=-I $(PYTHON3)/include
+else
+PYTHON3INC=-I $(PYTHON3)/win32inc
+endif
+# endif
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>修改编译Ruby</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback"># ifdef RUBY
+ifndef RUBY
+RUBY=c:/Ruby22-x64
+endif
+ifndef DYNAMIC_RUBY
+DYNAMIC_RUBY=yes
+endif
+#  Set default value
+ifndef RUBY_VER
+RUBY_VER = 22
+endif
+ifndef RUBY_VER_LONG
+RUBY_VER_LONG = 2.2.0
+endif
+ifndef RUBY_API_VER
+RUBY_API_VER = $(subst .,,$(RUBY_VER_LONG))
+endif
+
+... 中间一大段默认不用设置
+
+# endif # RUBY
+
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>这里编译和Linux下稍有不同,不需要 configue, 直接make 就可以了</li>
+</ul>
+<h2 id="开始编译">开始编译</h2>
+<ul>
+<li>开始编译运行 <code>mingw32-make.exe -f custom.mak</code></li>
+<li>若先前有编译失败,或要重新编译,需要先运行 <code>mingw32-make.exe -f custom.mak clean</code></li>
+<li>成功后在 src 文件夹下就有 Gvim.exe 文件了,可以运行看看正常不.</li>
+<li>需要把 <code>C:\Lua53\lua53.dll</code> 文件复制到和Gvim同一文件夹下</li>
+</ul>
+<h2 id="整理打包编译好的vim">整理打包编译好的Vim</h2>
+<p>我查了不少资料，但没有查到相关的，就是编译好后怎么整理编译好的文件到vim包，最后我直接参考 <a href="http://www.cnblogs.com/tracyone/">tracyone</a> 的编译脚本，打包了一个vim包，可以正常运行。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">cd</span> ~/vim-master
+mkdir -p vim74-x64/vim74
+cp -a runtime/* vim74-x64/vim74
+cp -a src/*.exe vim74-x64/vim74
+cp -a src/GvimExt/gvimext.dll vim74-x64/vim74
+cp -a src/xxd/xxd.exe vim74-x64/vim74
+cp -a vimtutor.bat vim74-x64/vim74
+cp -a /c/Lua53/lua53.dll vim74-x64/vim74
+</code></pre></td></tr></table>
+</div>
+</div><h1 id="安装vim74-x64">安装Vim74-x64</h1>
+<p>运行管理员模式命令行，进行 Vim74-x64 文件夹，运行 install.exe
+选择 d 进行默认安装。</p>
+<h1 id="参考资料">参考资料</h1>
+<ul>
+<li>编译成功的<a href="http://pan.baidu.com/s/1nusRjfV">Vim74 64位包</a></li>
+<li><a href="http://www.cnblogs.com/tracyone/p/4735411.html">Windows下编译YouCompleteMe流程</a></li>
+</ul>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">maonx</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        0001-01-01
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      
+      <nav class="post-nav">
+        <a class="prev" href="/post/install-vim-powerline-md/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default"></span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        <a class="next" href="/post/set-wifi-on-raspberry-pi/">
+            <span class="next-text nav-default"></span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:imaonx@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://twitter.com/maonx" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://github.com/maonx" class="iconfont icon-github" title="github"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2021<span class="heart"><i class="iconfont icon-heart"></i></span><span>maonx</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.c99b103c33d1539acf3025e1913697534542c4a5aa5af0ccc20475ed2863603b.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

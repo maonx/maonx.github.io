@@ -16,5 +16,182 @@
       <description>最近一直有在使用 Emacs，经过对比发现在 Windows 10 上使用 Emacs 真是太痛苦了，因为启动速度很慢很慢，我测试了一下， Windows 10 启动时间一般是 30 秒以上，Linu</description>
     </item>
     
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/post/hello-world/</link>
+      <pubDate>Sat, 24 Oct 2015 10:29:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/hello-world/</guid>
+      <description>Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick Start Create a new post 1  $ hexo new &amp;#34;My New Post&amp;#34;   More info: Writing
+Run server 1  $ hexo server   More info: Server
+Generate static files 1  $ hexo generate   More info: Generating</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/hello/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/hello/</guid>
+      <description>Welcome to StackEdit! Hey! I&amp;rsquo;m your first Markdown document in StackEdit1. Don&amp;rsquo;t delete me, I&amp;rsquo;m very helpful! I can be recovered anyway in the Utils tab of the  Settings dialog.
+ Documents StackEdit stores your documents in your browser, which means all your documents are automatically saved locally and are accessible offline!
+ Note:
+   StackEdit is accessible offline after the application has been loaded for the first time.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/hexo-%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/hexo-%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</guid>
+      <description>title: Hexo 使用笔记 date: 2016-01-05 09:58:30 tags: hexo 笔记 在Ubuntu Server上使用Hexo 安装 Node Js sudo apt-get install nodejs sudo apt-get install npm 安装 Hexo sudo npm install -g hexo-cli 若显示 /usr/bin/env: node: No such file or directory, 则输入 sudo ln -s &amp;quot;$(which</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/hexo%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/hexo%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</guid>
+      <description>在Ubuntu Server上使用Hexo 安装 Node Js sudo apt-get install nodejs sudo apt-get install npm 安装 Hexo sudo npm install -g hexo-cli 若显示 /usr/bin/env: node: No such file or directory, 则输入 sudo ln -s &amp;quot;$(which nodejs)&amp;quot; /usr/bin/node 若安装时间过长没有反应</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/install-archlinux-on-raspberry-pi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/install-archlinux-on-raspberry-pi/</guid>
+      <description>title: 树莓派上安装配置Archlinux date: 2016-02-26 10:02:19 tags: 树莓派 Archlinux 笔记 安装Archlinux 安装Archlinux这部分在Linux系统中测试通过。sdX</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/install-osx-hacktoish/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/install-osx-hacktoish/</guid>
+      <description>title: 黑苹果安装及基本配置 date: 2015-8-11 11:15:27 tags: OSX 购买主机配件 购买配件前基本都参考了 http://www.tonymacx86.com。 配件列表: 配件名称 型号</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/install-vim-powerline-md/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/install-vim-powerline-md/</guid>
+      <description>title: 安装Vim插件vim-airline date: 2015-10-25 23:03:27 tags: Vim Tips 最近因为家里用的是OSX，公司用的是Win7，所以Vim的有些配置不是挺方便，在Githu</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/install-vim-x64-on-win7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/install-vim-x64-on-win7/</guid>
+      <description>title: win7上编译安装64位VIM date: 2015-12-13 13:31:54 tags: Vim msys2 前提 想找一个64位的Vim并且支持Python和Lua功能不容易，所以研究了一天，查了不少资料，</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/set-wifi-on-raspberry-pi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/set-wifi-on-raspberry-pi/</guid>
+      <description>title: 为树莓派设置无线 date: 2015-11-23 09:37:45 tags: raspberryPi 树莓派 家里闲置的树莓派一直没有什么新的作用，突然想到一个新的想法，所以准备先给树莓派连上无线。 检测无线网卡 我的无</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/start-learn-bootstrap-sass/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/start-learn-bootstrap-sass/</guid>
+      <description>title: 开始学习Bootstrap date: 2015-11-03 23:27:38 tags: Bootstrap sass ruby 最近想学习下Bootstrap,因为本身自己也在用SASS写CSS,所以想装一个基于SASS的Bo</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/vim-notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/vim-notes/</guid>
+      <description>1. 设置Gvim字体 1 2 3 &amp;#34; 需要等宽字体 set guifont=Hurmit:h12 set guifontwide=Microsoft_YaHei_Mono:h12 2. 反转字母大小写 选择要反转的字母，按 shift + ~</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/yosemite-upgrade-ei/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/yosemite-upgrade-ei/</guid>
+      <description>title: &amp;ldquo;黑苹果Yosemite直接升级到EI Capitan&amp;rdquo; date: 2015-11-03 23:18:41 tags: OSX 本机原系统黑苹果Yosemite，准备升级EI Capitan，主要资料参考网</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/%E4%B8%BA%E6%A0%91%E8%8E%93%E6%B4%BE%E8%AE%BE%E7%BD%AE%E6%97%A0%E7%BA%BF/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/%E4%B8%BA%E6%A0%91%E8%8E%93%E6%B4%BE%E8%AE%BE%E7%BD%AE%E6%97%A0%E7%BA%BF/</guid>
+      <description>为树莓派设置无线 家里闲置的树莓派一直没有什么新的作用，突然想到一个新的想法，所以准备先给树莓派连上无线。 检测无线网卡 我的无线网卡牌子是磊科 NW362,</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/%E6%8E%92%E9%99%A4tmux%E4%BD%BF%E7%94%A8%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/%E6%8E%92%E9%99%A4tmux%E4%BD%BF%E7%94%A8%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+      <description>title: 排除Tmux使用中的问题 date: 2016-03-10 21:59:17 tags: tmux 记录自己使用Tmux过程中碰到过问题及解决方法。 问题1: Tab需要按2次才生效 原因经过： tmux默认的p</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/%E6%97%A0%E7%BA%BF%E5%BA%97%E9%93%BA%E8%A3%85%E4%BF%AE%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/%E6%97%A0%E7%BA%BF%E5%BA%97%E9%93%BA%E8%A3%85%E4%BF%AE%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3/</guid>
+      <description>title: 无线店铺装修开发文档 date: 2016-04-03 10:07:41 tags: 文档 协议及支持组件 协议概述 协议约定了指定view的渲染类型，以及渲染过程中依赖的数据绑定、样式绑定和事件的绑定</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/%E6%9B%B4%E6%8D%A2homebrew%E6%9B%B4%E6%96%B0%E6%BA%90/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/%E6%9B%B4%E6%8D%A2homebrew%E6%9B%B4%E6%96%B0%E6%BA%90/</guid>
+      <description>title: 更换Homebrew更新源 date: 2016-03-05 09:53:05 tags: OSX Homebrew是OS X不可或缺的包管理器，类似Linux上的包管理器比如apt-get, Homebr</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEarchlinux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEarchlinux/</guid>
+      <description>安装Archlinux 安装Archlinux这部分在Linux系统中测试通过。sdX是SD卡盘符。 SD卡分区 使用fdisk工具 # fdisk /dev/sdX 在fdi</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/%E8%AE%B03ds%E6%B8%B8%E6%88%8F%E6%96%87%E4%BB%B6%E8%BD%ACcia%E6%96%87%E4%BB%B6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/%E8%AE%B03ds%E6%B8%B8%E6%88%8F%E6%96%87%E4%BB%B6%E8%BD%ACcia%E6%96%87%E4%BB%B6/</guid>
+      <description>title: 记3DS游戏文件转CIA文件 date: 2016-03-02 10:07:41 tags: Games 3DSXL 起因是一直说着要学习日语，突然看到3DS上要新的书写记忆 哆啦假名游戏，就非常想下载一个看看是怎么样</description>
+    </item>
+    
+    <item>
+      <title>3DSXL 美版无卡降级及破解过程</title>
+      <link>http://localhost:1313/post/3dsxl-downgrade-jailbreak/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/3dsxl-downgrade-jailbreak/</guid>
+      <description>前些日子听我弟说他买了New 3DSLL，准备玩正版，虽然我自己也是玩正版，不过更喜欢破解后的汉化，这样可以玩中文游戏。因一直工作比较忙，都没</description>
+    </item>
+    
   </channel>
 </rss>

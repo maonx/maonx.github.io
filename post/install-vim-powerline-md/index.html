@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title> - Maonx - My blog for recording and learning ...</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="maonx" /><meta name="description" content="title: 安装Vim插件vim-airline date: 2015-10-25 23:03:27 tags: Vim Tips 最近因为家里用的是OSX，公司用的是Win7，所以Vim的有些配置不是挺方便，在Githu" /><meta name="keywords" content="maonx, 生活, 记录" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.82.0 with theme even" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/install-vim-powerline-md/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.39a3e01cac9473be1356f3572fcfe34b2e363efabad244a99a40f28a812c837e.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="" />
+<meta property="og:description" content="title: 安装Vim插件vim-airline date: 2015-10-25 23:03:27 tags: Vim Tips 最近因为家里用的是OSX，公司用的是Win7，所以Vim的有些配置不是挺方便，在Githu" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/install-vim-powerline-md/" /><meta property="article:section" content="post" />
+
+
+
+<meta itemprop="name" content="">
+<meta itemprop="description" content="title: 安装Vim插件vim-airline date: 2015-10-25 23:03:27 tags: Vim Tips 最近因为家里用的是OSX，公司用的是Win7，所以Vim的有些配置不是挺方便，在Githu">
+
+<meta itemprop="wordCount" content="1153">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="title: 安装Vim插件vim-airline date: 2015-10-25 23:03:27 tags: Vim Tips 最近因为家里用的是OSX，公司用的是Win7，所以Vim的有些配置不是挺方便，在Githu"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Maonx</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">首页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a>
+  </ul>
+
+  
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Maonx</a>
+</div>
+
+
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">首页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title"></h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 0001-01-01 </span>
+        
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#安装vim-airline">安装vim-airline</a></li>
+        <li><a href="#配置vim-airline前准备">配置vim-airline前准备</a></li>
+        <li><a href="#配置vim-airline">配置vim-airline</a></li>
+        <li><a href="#todo">TODO</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <p>title: 安装Vim插件vim-airline
+date: 2015-10-25 23:03:27
+tags:</p>
+<ul>
+<li>Vim</li>
+<li>Tips</li>
+</ul>
+<hr>
+<p>最近因为家里用的是OSX，公司用的是Win7，所以Vim的有些配置不是挺方便，在Github上面看了<a href="https://github.com/amix/vimrc">amix</a>和<a href="https://github.com/spf13/spf13-vim">spf13</a>两位的配置后感觉比较不错，重新调整配置了一下自己用的vimrc，这篇文章重点说下vim-airline，原先我用的是powerline，看了vim-airline后感觉非常不错。</p>
+<p>普通模式
+<img src="http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-25-01.png" alt="普通模式"></p>
+<p>插入模式
+<img src="http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-25-322965-0f95d930181572c7.png" alt="插入模式">
+用了vim-airline后我都不需要用minibufexpl.vim了，其自带切换buffer功能。</p>
+<h2 id="安装vim-airline">安装vim-airline</h2>
+<p>使用Vundle安装：在vimrc配置的Vundle插件列表加入 <code>Plugin 'bling/vim-airline'</code> 并在Vim 执行 <code>PluginInstall</code>。</p>
+<h2 id="配置vim-airline前准备">配置vim-airline前准备</h2>
+<p>和以前其他插件不同的是在安装vim-airline前要安装相应打过powerline补丁的字体，不然在airline状态栏上无法正常显示图标和三角形箭头符号。下载安装字体</p>
+<ul>
+<li>OSX： 下载 <a href="https://github.com/powerline/fonts">powerline fonts</a>,并进入下载目录执行<code>sh .install.sh</code>进行安装。最后在iTerm中设置not-ascii字体选择powerline fonts。</li>
+<li>Win7： 下载 <a href="https://github.com/eugeii/consolas-powerline-vim">consolas-powerline</a>，安装这几个字体到系统fonts文件夹下即可。
+PS:区分两个系统不同的字体下载是因为我在Windows下原先安装 <a href="https://github.com/powerline/fonts">powerline fonts</a>，并和OSX一样的配置不生效，后在网上看到此文章<a href="http://www.codejury.com/consolas-font-in-vim-powerline-windows/">http://www.codejury.com/consolas-font-in-vim-powerline-windows/</a>完美解决了问题。</li>
+</ul>
+<h2 id="配置vim-airline">配置vim-airline</h2>
+<p>在OSX系统下在vimrc中加入如下配置即可：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="nb">let</span> g:airline_theme<span class="o">=</span><span class="s2">&#34;luna&#34;</span> 
+
+<span class="s2">&#34;这个是安装字体后 必须设置此项&#34;</span> 
+<span class="nb">let</span> g:airline_powerline_fonts <span class="o">=</span> <span class="m">1</span>   
+ 
+ <span class="s2">&#34;打开tabline功能,方便查看Buffer和切换，这个功能比较不错&#34;</span>
+ <span class="s2">&#34;我还省去了minibufexpl插件，因为我习惯在1个Tab下用多个buffer&#34;</span>
+ <span class="nb">let</span> g:airline#extensions#tabline#enabled <span class="o">=</span> <span class="m">1</span>
+ <span class="nb">let</span> g:airline#extensions#tabline#buffer_nr_show <span class="o">=</span> <span class="m">1</span>
+
+ <span class="s2">&#34;设置切换Buffer快捷键&#34;</span>
+ nnoremap &lt;C-N&gt; :bn&lt;CR&gt;
+ nnoremap &lt;C-P&gt; :bp&lt;CR&gt;
+
+ <span class="s2">&#34; 关闭状态显示空白符号计数,这个对我用处不大&#34;</span>
+ <span class="nb">let</span> g:airline#extensions#whitespace#enabled <span class="o">=</span> <span class="m">0</span>
+ <span class="nb">let</span> g:airline#extensions#whitespace#symbol <span class="o">=</span> <span class="s1">&#39;!&#39;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>如果在Windows系统还需要在上面设置下增加如下代码,因为上面设置在Windows下不生效,至少我这边电脑是这个情况</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-bash" data-lang="bash"><span class="s2">&#34; 设置consolas字体&#34;</span>
+<span class="nb">set</span> <span class="nv">guifont</span><span class="o">=</span>Consolas<span class="se">\ </span><span class="k">for</span><span class="se">\ </span>Powerline<span class="se">\ </span>FixedD:h11
+
+<span class="s2">&#34;设置状态栏符号显示，下面编码用双引号&#34;</span>
+<span class="nb">let</span> g:Powerline_symbols<span class="o">=</span><span class="s2">&#34;fancy&#34;</span>
+<span class="nb">let</span> g:airline_symbols <span class="o">=</span> <span class="o">{}</span>
+<span class="nb">let</span> g:airline_left_sep <span class="o">=</span> <span class="s2">&#34;\u2b80&#34;</span> 
+<span class="nb">let</span> g:airline_left_alt_sep <span class="o">=</span> <span class="s2">&#34;\u2b81&#34;</span>
+<span class="nb">let</span> g:airline_right_sep <span class="o">=</span> <span class="s2">&#34;\u2b82&#34;</span>
+<span class="nb">let</span> g:airline_right_alt_sep <span class="o">=</span> <span class="s2">&#34;\u2b83&#34;</span>
+<span class="nb">let</span> g:airline_symbols.branch <span class="o">=</span> <span class="s2">&#34;\u2b60&#34;</span>
+<span class="nb">let</span> g:airline_symbols.readonly <span class="o">=</span> <span class="s2">&#34;\u2b64&#34;</span>
+<span class="nb">let</span> g:airline_symbols.linenr <span class="o">=</span> <span class="s2">&#34;\u2b61&#34;</span>
+
+<span class="s2">&#34;设置顶部tabline栏符号显示&#34;</span>
+<span class="nb">let</span> g:airline#extensions#tabline#left_sep <span class="o">=</span> <span class="s2">&#34;\u2b80&#34;</span>
+<span class="nb">let</span> g:airline#extensions#tabline#left_alt_sep <span class="o">=</span> <span class="s2">&#34;\u2b81&#34;</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="todo">TODO</h2>
+<p>有空在研究下vim-airline的主题luna， 看能不能再调整下更符合自己喜欢的颜色~~</p>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">maonx</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        0001-01-01
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      
+      <nav class="post-nav">
+        <a class="prev" href="/post/install-osx-hacktoish/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default"></span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        <a class="next" href="/post/install-vim-x64-on-win7/">
+            <span class="next-text nav-default"></span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:imaonx@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://twitter.com/maonx" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://github.com/maonx" class="iconfont icon-github" title="github"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2021<span class="heart"><i class="iconfont icon-heart"></i></span><span>maonx</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.c99b103c33d1539acf3025e1913697534542c4a5aa5af0ccc20475ed2863603b.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
