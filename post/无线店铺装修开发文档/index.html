@@ -348,7 +348,21 @@ viewId需要在页面内保证唯一性，避免有action操作到错误的view�
   
   
 </div>
-<footer class="post-footer">
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">赞赏支持</label>
+  <div class="qr-code">
+    
+    <label class="qr-code-image" for="reward">
+        <img class="image" src="https://raw.githubusercontent.com/maonx/blog-images/main/20210330222357.png">
+        <span>微信打赏</span>
+      </label>
+    <label class="qr-code-image" for="reward">
+        <img class="image" src="https://raw.githubusercontent.com/maonx/blog-images/main/20210330222250.jpg">
+        <span>支付宝打赏</span>
+      </label>
+  </div>
+</div><footer class="post-footer">
       
       <nav class="post-nav">
         <a class="prev" href="/post/%E6%8E%92%E9%99%A4tmux%E4%BD%BF%E7%94%A8%E4%B8%AD%E7%9A%84%E9%97%AE%E9%A2%98/">
@@ -370,6 +384,14 @@ viewId需要在页面内保证唯一性，避免有action操作到错误的view�
   
 
   
+    <script src="https://utteranc.es/client.js"
+            repo="maonx/comments"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://github.com/utterance">comments powered by utterances.</a></noscript>
 
       </div>
     </main>
