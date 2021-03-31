@@ -53,6 +53,15 @@
     </item>
     
     <item>
+      <title>开始学习Bootstrap</title>
+      <link>http://localhost:1313/post/start-learn-bootstrap-sass/</link>
+      <pubDate>Tue, 03 Nov 2015 23:27:38 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/start-learn-bootstrap-sass/</guid>
+      <description>最近想学习下Bootstrap,因为本身自己也在用SASS写CSS,所以想装一个基于SASS的Bootstrap,在Bootstrap中文网</description>
+    </item>
+    
+    <item>
       <title>3DSXL 美版无卡降级及破解过程</title>
       <link>http://localhost:1313/post/3dsxl-downgrade-jailbreak/</link>
       <pubDate>Tue, 27 Oct 2015 10:29:00 +0800</pubDate>
@@ -77,15 +86,6 @@
       
       <guid>http://localhost:1313/post/install-osx-hacktoish/</guid>
       <description>购买主机配件 购买配件前基本都参考了 http://www.tonymacx86.com。 配件列表: 配件名称 型号 价格 CPU I5-4590 1073 散热器 九州风神玄冰40</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/post/start-learn-bootstrap-sass/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/start-learn-bootstrap-sass/</guid>
-      <description>title: 开始学习Bootstrap date: 2015-11-03 23:27:38 tags: Bootstrap sass ruby 最近想学习下Bootstrap,因为本身自己也在用SASS写CSS,所以想装一个基于SASS的Bo</description>
     </item>
     
     <item>
