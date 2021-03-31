@@ -6,7 +6,34 @@
     <description>Recent content in Tags on Maonx - My blog for recording and learning ...</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2015 10:29:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Feb 2016 10:02:19 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Archlinux</title>
+      <link>http://localhost:1313/tags/archlinux/</link>
+      <pubDate>Fri, 26 Feb 2016 10:02:19 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/archlinux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>树莓派</title>
+      <link>http://localhost:1313/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/</link>
+      <pubDate>Fri, 26 Feb 2016 10:02:19 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vim</title>
+      <link>http://localhost:1313/tags/vim/</link>
+      <pubDate>Sun, 13 Dec 2015 13:31:54 +0800</pubDate>
+      
+      <guid>http://localhost:1313/tags/vim/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>3DS</title>
       <link>http://localhost:1313/tags/3ds/</link>

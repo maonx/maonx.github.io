@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>玩物</title>
+      <link>http://localhost:1313/categories/%E7%8E%A9%E7%89%A9/</link>
+      <pubDate>Fri, 26 Feb 2016 10:02:19 +0800</pubDate>
+      
+      <guid>http://localhost:1313/categories/%E7%8E%A9%E7%89%A9/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>笔记</title>
       <link>http://localhost:1313/categories/%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Tue, 05 Jan 2016 10:29:00 +0800</pubDate>

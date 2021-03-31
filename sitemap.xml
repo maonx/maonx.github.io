@@ -3,7 +3,7 @@
   
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2021-03-28T21:02:16+08:00</lastmod>
+    <lastmod>2021-03-31T23:14:19+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -17,14 +17,14 @@
   
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2021-03-28T21:02:16+08:00</lastmod>
+    <lastmod>2021-03-31T23:14:19+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://localhost:1313/post/</loc>
-    <lastmod>2021-03-28T21:02:16+08:00</lastmod>
+    <lastmod>2021-03-31T23:14:19+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -32,6 +32,41 @@
   <url>
     <loc>http://localhost:1313/post/emacs-on-windows10/</loc>
     <lastmod>2021-03-28T21:02:16+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/archlinux/</loc>
+    <lastmod>2021-03-31T23:02:19+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2021-03-31T23:14:19+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/</loc>
+    <lastmod>2021-03-31T23:14:19+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/install-archlinux-on-raspberry-pi/</loc>
+    <lastmod>2021-03-31T23:02:19+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/%E7%8E%A9%E7%89%A9/</loc>
+    <lastmod>2021-03-31T23:14:19+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -51,6 +86,27 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/tags/vim/</loc>
+    <lastmod>2021-03-31T23:14:19+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/install-vim-x64-on-win7/</loc>
+    <lastmod>2021-03-31T23:14:19+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/set-wifi-on-raspberry-pi/</loc>
+    <lastmod>2021-03-31T23:14:19+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/tags/3ds/</loc>
     <lastmod>2021-03-28T21:02:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -65,13 +121,6 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2021-03-28T21:02:16+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://localhost:1313/categories/%E6%B8%B8%E6%88%8F/</loc>
     <lastmod>2021-03-28T21:02:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -79,43 +128,21 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/install-archlinux-on-raspberry-pi/</loc>
+    <loc>http://localhost:1313/post/install-vim-powerline-md/</loc>
+    <lastmod>2021-03-31T23:11:19+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://localhost:1313/post/install-osx-hacktoish/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/post/install-vim-powerline-md/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/post/install-vim-x64-on-win7/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/post/set-wifi-on-raspberry-pi/</loc>
+    <lastmod>2021-03-31T23:09:19+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://localhost:1313/post/start-learn-bootstrap-sass/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/post/vim-notes/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

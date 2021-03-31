@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title> - Maonx - My blog for recording and learning ...</title>
+  <title>树莓派上安装配置Archlinux - Maonx - My blog for recording and learning ...</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="maonx" /><meta name="description" content="title: 树莓派上安装配置Archlinux date: 2016-02-26 10:02:19 tags: 树莓派 Archlinux 笔记 安装Archlinux 安装Archlinux这部分在Linux系统中测试通过。sdX" /><meta name="keywords" content="maonx, 生活, 记录" />
+<meta name="author" content="maonx" /><meta name="description" content="安装Archlinux 安装Archlinux这部分在Linux系统中测试通过。sdX是SD卡盘符。 SD卡分区 使用fdisk工具 # fdisk /dev/sdX 在fdi" /><meta name="keywords" content="maonx, 生活, 记录" />
 
 
 
@@ -39,20 +39,20 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="" />
-<meta property="og:description" content="title: 树莓派上安装配置Archlinux date: 2016-02-26 10:02:19 tags: 树莓派 Archlinux 笔记 安装Archlinux 安装Archlinux这部分在Linux系统中测试通过。sdX" />
+<meta property="og:title" content="树莓派上安装配置Archlinux" />
+<meta property="og:description" content="安装Archlinux 安装Archlinux这部分在Linux系统中测试通过。sdX是SD卡盘符。 SD卡分区 使用fdisk工具 # fdisk /dev/sdX 在fdi" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/post/install-archlinux-on-raspberry-pi/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2016-02-26T10:02:19&#43;08:00" />
+<meta property="article:modified_time" content="2021-03-31T23:02:19&#43;08:00" />
 
-
-
-<meta itemprop="name" content="">
-<meta itemprop="description" content="title: 树莓派上安装配置Archlinux date: 2016-02-26 10:02:19 tags: 树莓派 Archlinux 笔记 安装Archlinux 安装Archlinux这部分在Linux系统中测试通过。sdX">
-
-<meta itemprop="wordCount" content="648">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="title: 树莓派上安装配置Archlinux date: 2016-02-26 10:02:19 tags: 树莓派 Archlinux 笔记 安装Archlinux 安装Archlinux这部分在Linux系统中测试通过。sdX"/>
+<meta itemprop="name" content="树莓派上安装配置Archlinux">
+<meta itemprop="description" content="安装Archlinux 安装Archlinux这部分在Linux系统中测试通过。sdX是SD卡盘符。 SD卡分区 使用fdisk工具 # fdisk /dev/sdX 在fdi"><meta itemprop="datePublished" content="2016-02-26T10:02:19&#43;08:00" />
+<meta itemprop="dateModified" content="2021-03-31T23:02:19&#43;08:00" />
+<meta itemprop="wordCount" content="614">
+<meta itemprop="keywords" content="树莓派,Archlinux," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="树莓派上安装配置Archlinux"/>
+<meta name="twitter:description" content="安装Archlinux 安装Archlinux这部分在Linux系统中测试通过。sdX是SD卡盘符。 SD卡分区 使用fdisk工具 # fdisk /dev/sdX 在fdi"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -125,11 +125,13 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title"></h1>
+      <h1 class="post-title">树莓派上安装配置Archlinux</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 0001-01-01 </span>
-        
+        <span class="post-time"> 2016-02-26 </span>
+        <div class="post-category">
+            <a href="/categories/%E7%8E%A9%E7%89%A9/"> 玩物 </a>
+            </div>
         
       </div>
     </header>
@@ -162,31 +164,27 @@
   </div>
 </div>
     <div class="post-content">
-      <p>title: 树莓派上安装配置Archlinux
-date: 2016-02-26 10:02:19
-tags:</p>
-<ul>
-<li>树莓派</li>
-<li>Archlinux</li>
-<li>笔记</li>
+      <ul>
+<li></li>
 </ul>
-<hr>
 <h2 id="安装archlinux">安装Archlinux</h2>
-<hr>
 <blockquote>
 <p>安装Archlinux这部分在Linux系统中测试通过。<code>sdX</code>是SD卡盘符。</p>
 </blockquote>
 <h3 id="sd卡分区">SD卡分区</h3>
-<ol>
+<ul>
 <li>使用<code>fdisk</code>工具 <code># fdisk /dev/sdX</code></li>
 <li>在<code>fdisk</code>提示命令下删除旧分区并新建：
-a. 按<code>o</code> 删除全部分区
-b. 按<code>p</code>列出分区，此时应该没有任何分区。
-c. 按<code>n</code>新建分区, 然后<code>p</code>选择为主分区, 输入<code>1</code>作为SD卡的第1个主分区; 按回车选择默认开始扇区,再输入<code>+100M</code>设置结束扇区.
-d. 按<code>t</code>,然后按<code>c</code>设置刚才的主分区类型为<code>W95 FAT32(LBA)</code>.
-e. 按<code>n</code>新建分区,然后<code>p</code>选择为主分区,输入<code>2</code>作为SD卡的第2个主分区;按两次回车默认把SD卡剩下的空间都给第2主分区.
-f. 按<code>w</code>写入保存分区, 退出fdisk.</li>
+<ol>
+<li>按<code>o</code> 删除全部分区</li>
+<li>按<code>p</code>列出分区，此时应该没有任何分区。</li>
+<li>按<code>n</code>新建分区, 然后<code>p</code>选择为主分区, 输入<code>1</code>作为SD卡的第1个主分区; 按回车选择默认开始扇区,再输入<code>+100M</code>设置结束扇区.</li>
+<li>按<code>t</code>,然后按<code>c</code>设置刚才的主分区类型为<code>W95 FAT32(LBA)</code>.</li>
+<li>按<code>n</code>新建分区,然后<code>p</code>选择为主分区,输入<code>2</code>作为SD卡的第2个主分区;按两次回车默认把SD卡剩下的空间都给第2主分区.</li>
+<li>按<code>w</code>写入保存分区, 退出fdisk.</li>
 </ol>
+</li>
+</ul>
 <h3 id="格式化和挂载分区">格式化和挂载分区</h3>
 <ol>
 <li>把第1主分区格式化为FAT分区，并挂载到boot：</li>
@@ -270,7 +268,7 @@ f. 按<code>w</code>写入保存分区, 退出fdisk.</li>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-        0001-01-01
+        2021-03-31
         
     </span>
   </p>
@@ -292,15 +290,18 @@ f. 按<code>w</code>写入保存分区, 退出fdisk.</li>
       </label>
   </div>
 </div><footer class="post-footer">
-      
+      <div class="post-tags">
+          <a href="/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/">树莓派</a>
+          <a href="/tags/archlinux/">Archlinux</a>
+          </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/3dsxl-downgrade-jailbreak/">
+        <a class="prev" href="/post/emacs-on-windows10/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">3DSXL 美版无卡降级及破解过程</span>
+            <span class="prev-text nav-default">Windows 10 上流畅使用 Emacs</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
-        <a class="next" href="/post/install-osx-hacktoish/">
-            <span class="next-text nav-default"></span>
+        <a class="next" href="/post/use-hexo/">
+            <span class="next-text nav-default">Hexo 使用笔记</span>
             <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>

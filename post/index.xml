@@ -17,12 +17,39 @@
     </item>
     
     <item>
+      <title>树莓派上安装配置Archlinux</title>
+      <link>http://localhost:1313/post/install-archlinux-on-raspberry-pi/</link>
+      <pubDate>Fri, 26 Feb 2016 10:02:19 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/install-archlinux-on-raspberry-pi/</guid>
+      <description>安装Archlinux 安装Archlinux这部分在Linux系统中测试通过。sdX是SD卡盘符。 SD卡分区 使用fdisk工具 # fdisk /dev/sdX 在fdi</description>
+    </item>
+    
+    <item>
       <title>Hexo 使用笔记</title>
       <link>http://localhost:1313/post/use-hexo/</link>
       <pubDate>Tue, 05 Jan 2016 10:29:00 +0800</pubDate>
       
       <guid>http://localhost:1313/post/use-hexo/</guid>
       <description>在Ubuntu Server上使用Hexo 安装 Node Js sudo apt-get install nodejs sudo apt-get install npm 安装 Hexo sudo npm install -g hexo-cli 若显示 /usr/bin/env: node: No such file or directory, 则输入 sudo ln -s &amp;quot;$(which nodejs)&amp;quot; /usr/bin/node 若安装时间过长没有反应</description>
+    </item>
+    
+    <item>
+      <title>Win7上编译安装64位Vim</title>
+      <link>http://localhost:1313/post/install-vim-x64-on-win7/</link>
+      <pubDate>Sun, 13 Dec 2015 13:31:54 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/install-vim-x64-on-win7/</guid>
+      <description>前提 想找一个64位的Vim并且支持Python和Lua功能不容易，所以研究了一天，查了不少资料，终于成功编译，记录一下。 编译环境选择和安装 选</description>
+    </item>
+    
+    <item>
+      <title>树莓派设置无线</title>
+      <link>http://localhost:1313/post/set-wifi-on-raspberry-pi/</link>
+      <pubDate>Mon, 23 Nov 2015 09:37:45 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/set-wifi-on-raspberry-pi/</guid>
+      <description>家里闲置的树莓派一直没有什么新的作用，突然想到一个新的想法，所以准备先给树莓派连上无线。 检测无线网卡 我的无线网卡牌子是磊科 NW362, 可以直接在树莓派</description>
     </item>
     
     <item>
@@ -35,48 +62,21 @@
     </item>
     
     <item>
-      <title></title>
-      <link>http://localhost:1313/post/install-archlinux-on-raspberry-pi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/install-archlinux-on-raspberry-pi/</guid>
-      <description>title: 树莓派上安装配置Archlinux date: 2016-02-26 10:02:19 tags: 树莓派 Archlinux 笔记 安装Archlinux 安装Archlinux这部分在Linux系统中测试通过。sdX</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/post/install-osx-hacktoish/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/install-osx-hacktoish/</guid>
-      <description>title: 黑苹果安装及基本配置 date: 2015-8-11 11:15:27 tags: OSX 购买主机配件 购买配件前基本都参考了 http://www.tonymacx86.com。 配件列表: 配件名称 型号</description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>安装Vim插件vim-airline</title>
       <link>http://localhost:1313/post/install-vim-powerline-md/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 Oct 2015 23:03:27 +0800</pubDate>
       
       <guid>http://localhost:1313/post/install-vim-powerline-md/</guid>
-      <description>title: 安装Vim插件vim-airline date: 2015-10-25 23:03:27 tags: Vim Tips 最近因为家里用的是OSX，公司用的是Win7，所以Vim的有些配置不是挺方便，在Githu</description>
+      <description>最近因为家里用的是OSX，公司用的是Win7，所以Vim的有些配置不是挺方便，在Github上面看了amix和spf13两位的配置后感觉比较</description>
     </item>
     
     <item>
-      <title></title>
-      <link>http://localhost:1313/post/install-vim-x64-on-win7/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>黑苹果安装及基本配置</title>
+      <link>http://localhost:1313/post/install-osx-hacktoish/</link>
+      <pubDate>Tue, 11 Aug 2015 11:15:27 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/install-vim-x64-on-win7/</guid>
-      <description>title: win7上编译安装64位VIM date: 2015-12-13 13:31:54 tags: Vim msys2 前提 想找一个64位的Vim并且支持Python和Lua功能不容易，所以研究了一天，查了不少资料，</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/post/set-wifi-on-raspberry-pi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/set-wifi-on-raspberry-pi/</guid>
-      <description>title: 为树莓派设置无线 date: 2015-11-23 09:37:45 tags: raspberryPi 树莓派 家里闲置的树莓派一直没有什么新的作用，突然想到一个新的想法，所以准备先给树莓派连上无线。 检测无线网卡 我的无</description>
+      <guid>http://localhost:1313/post/install-osx-hacktoish/</guid>
+      <description>购买主机配件 购买配件前基本都参考了 http://www.tonymacx86.com。 配件列表: 配件名称 型号 价格 CPU I5-4590 1073 散热器 九州风神玄冰40</description>
     </item>
     
     <item>
@@ -86,15 +86,6 @@
       
       <guid>http://localhost:1313/post/start-learn-bootstrap-sass/</guid>
       <description>title: 开始学习Bootstrap date: 2015-11-03 23:27:38 tags: Bootstrap sass ruby 最近想学习下Bootstrap,因为本身自己也在用SASS写CSS,所以想装一个基于SASS的Bo</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/post/vim-notes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/vim-notes/</guid>
-      <description>1. 设置Gvim字体 1 2 3 &amp;#34; 需要等宽字体 set guifont=Hurmit:h12 set guifontwide=Microsoft_YaHei_Mono:h12 2. 反转字母大小写 选择要反转的字母，按 shift + ~</description>
     </item>
     
     <item>
