@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title> - Maonx - My blog for recording and learning ...</title>
+  <title>故障排除 - Maonx - My blog for recording and learning ...</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,8 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="maonx" /><meta name="description" content="title: 记3DS游戏文件转CIA文件 date: 2016-03-02 10:07:41 tags: Games 3DSXL 起因是一直说着要学习日语，突然看到3DS上要新的书写记忆 哆啦假名游戏，就非常想下载一个看看是怎么样" /><meta name="keywords" content="maonx, 生活, 记录" />
+<meta name="author" content="maonx" /><meta name="description" content=" 单独使用这个文件来汇总碰到的问题和解决办法，方便后续的查询。
+" /><meta name="keywords" content="maonx, 生活, 记录" />
 
 
 
@@ -26,7 +27,7 @@
 <meta name="generator" content="Hugo 0.82.0 with theme even" />
 
 
-<link rel="canonical" href="http://localhost:1313/post/%E8%AE%B03ds%E6%B8%B8%E6%88%8F%E6%96%87%E4%BB%B6%E8%BD%ACcia%E6%96%87%E4%BB%B6/" />
+<link rel="canonical" href="http://localhost:1313/post/troubleshooting/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -39,20 +40,26 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="" />
-<meta property="og:description" content="title: 记3DS游戏文件转CIA文件 date: 2016-03-02 10:07:41 tags: Games 3DSXL 起因是一直说着要学习日语，突然看到3DS上要新的书写记忆 哆啦假名游戏，就非常想下载一个看看是怎么样" />
+<meta property="og:title" content="故障排除" />
+<meta property="og:description" content="
+单独使用这个文件来汇总碰到的问题和解决办法，方便后续的查询。
+" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/post/%E8%AE%B03ds%E6%B8%B8%E6%88%8F%E6%96%87%E4%BB%B6%E8%BD%ACcia%E6%96%87%E4%BB%B6/" /><meta property="article:section" content="post" />
+<meta property="og:url" content="http://localhost:1313/post/troubleshooting/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-04-02T19:21:00&#43;08:00" />
+<meta property="article:modified_time" content="2021-04-03T23:51:12&#43;08:00" />
 
-
-
-<meta itemprop="name" content="">
-<meta itemprop="description" content="title: 记3DS游戏文件转CIA文件 date: 2016-03-02 10:07:41 tags: Games 3DSXL 起因是一直说着要学习日语，突然看到3DS上要新的书写记忆 哆啦假名游戏，就非常想下载一个看看是怎么样">
-
-<meta itemprop="wordCount" content="548">
+<meta itemprop="name" content="故障排除">
+<meta itemprop="description" content="
+单独使用这个文件来汇总碰到的问题和解决办法，方便后续的查询。
+"><meta itemprop="datePublished" content="2021-04-02T19:21:00&#43;08:00" />
+<meta itemprop="dateModified" content="2021-04-03T23:51:12&#43;08:00" />
+<meta itemprop="wordCount" content="59">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="title: 记3DS游戏文件转CIA文件 date: 2016-03-02 10:07:41 tags: Games 3DSXL 起因是一直说着要学习日语，突然看到3DS上要新的书写记忆 哆啦假名游戏，就非常想下载一个看看是怎么样"/>
+<meta name="twitter:title" content="故障排除"/>
+<meta name="twitter:description" content="
+单独使用这个文件来汇总碰到的问题和解决办法，方便后续的查询。
+"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -125,10 +132,10 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title"></h1>
+      <h1 class="post-title">故障排除</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 0001-01-01 </span>
+        <span class="post-time"> 2021-04-02 </span>
         
         
       </div>
@@ -141,12 +148,7 @@
   <ul>
     <li>
       <ul>
-        <li>
-          <ul>
-            <li><a href="#转换步骤">转换步骤：</a></li>
-            <li><a href="#资料列表">资料列表：</a></li>
-          </ul>
-        </li>
+        <li><a href="#wsl2-mnt-c-xxx-input-output-error-解决办法">WSL2 <code>/mnt/c/xxx Input/output error</code> 解决办法</a></li>
       </ul>
     </li>
   </ul>
@@ -154,40 +156,22 @@
   </div>
 </div>
     <div class="post-content">
-      <p>title: 记3DS游戏文件转CIA文件
-date: 2016-03-02 10:07:41
-tags:</p>
-<ul>
-<li>Games</li>
-<li>3DSXL</li>
-</ul>
-<hr>
-<p>起因是一直说着要学习日语，突然看到3DS上要新的<a href="http://bbs.tgbus.com/thread-6182195-1-1.html">书写记忆 哆啦假名</a>游戏，就非常想下载一个看看是怎么样的教学。然后找遍了所有资源都没有我可以用的CIA文件，在百度吧发贴也没有人制作，不过碰到有网友提示没有破解卡也可以转CIA文件，所以就有这次转文件笔记了。</p>
-<hr>
-<p><img src="/images/2016-03-02/dorakana.png" alt="哆啦假名"></p>
-<blockquote>
-<p>电脑系统是Win系统，因为转化软件只找到exe版本，3ds是用rxtools工具破解的。</p>
+      <blockquote>
+<p>单独使用这个文件来汇总碰到的问题和解决办法，方便后续的查询。</p>
 </blockquote>
-<h3 id="转换步骤">转换步骤：</h3>
-<ol>
-<li>下载<a href="http://bbs.tgbus.com/thread-6182195-1-1.html">书写记忆 哆啦假名</a>，解压得到3ds格式游戏文件。</li>
-<li>下载<a href="http://www.speedfly.cn/10645.html">3DS Simple CIA Converter v4.3 汉化版</a>, 解压到3ds2cia文件夹。</li>
-<li>将下载的3ds格式文件放到3ds2cia文件夹中的roms文件夹中</li>
-<li>运行转化软件，点击创建ncchinfo.bin文件，会生成在3ds2cia文件夹中。将此文件放到3ds SD卡的根目录下。<br>
-<img src="/images/2016-03-02/3ds2cia.png" alt="3DS Simple CIA Converter v4.3 汉化版"></li>
-<li>在3ds上进入rxTools菜单，选择<code>Decryption Options -&gt; Generate Xorpads</code> 生成两个Xorpads文件。<br>
-<img src="/images/2016-03-02/3ds2cia-a.jpg" alt="选择生成Xorpads"></li>
-<li>点击生成后显示<code>Could not open SDinfo.bin!</code>，这个可以忽略，关机拔出SD卡。<br>
-<img src="/images/2016-03-02/3ds2cia-b.jpg" alt="运行结果"></li>
-<li>在3DS根目录将生成的2个Xorpads复制到3ds2cia文件夹的xorpads文件夹中，点击转换3ds为cia格式，生成的cia文件会在3ds2cia文件夹中的cia文件夹中，成功生成，可以安装了 ：）</li>
-</ol>
-<h3 id="资料列表">资料列表：</h3>
-<hr>
-<ul>
-<li><a href="https://gbatemp.net/threads/release-3ds-simple-cia-converter.384559/">3DS Simple CIA Converter</a></li>
-<li><a href="http://www.speedfly.cn/10645.html">3DS Simple CIA Converter v4.3 汉化版</a></li>
-</ul>
-
+<h2 id="wsl2-mnt-c-xxx-input-output-error-解决办法">WSL2 <code>/mnt/c/xxx Input/output error</code> 解决办法</h2>
+<p>重新关闭和重启 WSL 可以解决。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">wsl.exe --shutdown
+wsl.exe
+</code></pre></td></tr></table>
+</div>
+</div><p>t2est only one</p>
     </div>
 
     <div class="post-copyright">
@@ -198,7 +182,7 @@ tags:</p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-        0001-01-01
+        2021-04-03
         
     </span>
   </p>
@@ -222,12 +206,12 @@ tags:</p>
 </div><footer class="post-footer">
       
       <nav class="post-nav">
-        <a class="prev" href="/post/%E6%9B%B4%E6%8D%A2homebrew%E6%9B%B4%E6%96%B0%E6%BA%90/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default"></span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
         
+        <a class="next" href="/post/emacs-on-windows10/">
+            <span class="next-text nav-default">Windows 10 上流畅使用 Emacs</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
       </nav>
     </footer>
   </article>

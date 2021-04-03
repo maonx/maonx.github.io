@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Maonx - My blog for recording and learning ...</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 27 Mar 2021 10:29:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Apr 2021 19:21:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>故障排除</title>
+      <link>http://localhost:1313/post/troubleshooting/</link>
+      <pubDate>Fri, 02 Apr 2021 19:21:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/troubleshooting/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;单独使用这个文件来汇总碰到的问题和解决办法，方便后续的查询。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
     <item>
       <title>Windows 10 上流畅使用 Emacs</title>
       <link>http://localhost:1313/post/emacs-on-windows10/</link>
@@ -14,6 +25,15 @@
       
       <guid>http://localhost:1313/post/emacs-on-windows10/</guid>
       <description>最近一直有在使用 Emacs，经过对比发现在 Windows 10 上使用 Emacs 真是太痛苦了，因为启动速度很慢很慢，我测试了一下， Windows 10 启动时间一般是 30 秒以上，Linu</description>
+    </item>
+    
+    <item>
+      <title>树莓派上安装配置 Archlinux</title>
+      <link>http://localhost:1313/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE-archlinux/</link>
+      <pubDate>Fri, 26 Feb 2016 18:02:00 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE-archlinux/</guid>
+      <description>安装 Archlinux 安装 Archlinux 这部分在 Linux 系统中测试通过。 sdX 是 SD 卡盘符。 SD 卡分区 使用 fdisk 工具 # fdisk /dev/sdX 在 fdisk 提示命令下删除旧分区并新建： 按 o 删除全部分区 按 p 列出分区，此</description>
     </item>
     
     <item>
@@ -131,15 +151,6 @@
       
       <guid>http://localhost:1313/post/%E6%9B%B4%E6%8D%A2homebrew%E6%9B%B4%E6%96%B0%E6%BA%90/</guid>
       <description>title: 更换Homebrew更新源 date: 2016-03-05 09:53:05 tags: OSX Homebrew是OS X不可或缺的包管理器，类似Linux上的包管理器比如apt-get, Homebr</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://localhost:1313/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEarchlinux/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AEarchlinux/</guid>
-      <description>安装Archlinux 安装Archlinux这部分在Linux系统中测试通过。sdX是SD卡盘符。 SD卡分区 使用fdisk工具 # fdisk /dev/sdX 在fdi</description>
     </item>
     
     <item>

@@ -49,7 +49,7 @@
 <meta itemprop="name" content="3DSXL 美版无卡降级及破解过程">
 <meta itemprop="description" content="前些日子听我弟说他买了New 3DSLL，准备玩正版，虽然我自己也是玩正版，不过更喜欢破解后的汉化，这样可以玩中文游戏。因一直工作比较忙，都没"><meta itemprop="datePublished" content="2015-10-27T10:29:00&#43;08:00" />
 <meta itemprop="dateModified" content="2021-03-28T21:02:16&#43;08:00" />
-<meta itemprop="wordCount" content="2542">
+<meta itemprop="wordCount" content="2443">
 <meta itemprop="keywords" content="3DS," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="3DSXL 美版无卡降级及破解过程"/>
 <meta name="twitter:description" content="前些日子听我弟说他买了New 3DSLL，准备玩正版，虽然我自己也是玩正版，不过更喜欢破解后的汉化，这样可以玩中文游戏。因一直工作比较忙，都没"/>
@@ -188,63 +188,87 @@
 <p>3DS打开无线，用浏览器登录<code>http://go.gateway-3ds.com</code> 进入GATEWAY菜单（帖子说好多说是用扫码进入，不过我这一直都是失败，直接提示用浏览器打开此网址，我直接确定进入了）。</p>
 </li>
 <li>
-<p>使用十字键的左右键选择BACKUP SAYSTEM NAND 进行本机NAND备份。备份完成之后会退回gateway菜单，此时直接按电源键关机，取出SD卡把你的NAND备份保存。（此NAND用于以后不小心把系统升到9.2以上版本救急用的）
-{% img <a href="http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-8.jpg">http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-8.jpg</a> 400 %}</p>
+<p>使用十字键的左右键选择BACKUP SAYSTEM NAND 进行本机NAND备份。备份完成之后会退回gateway菜单，此时直接按电源键关机，取出SD卡把你的NAND备份保存。（此NAND用于以后不小心把系统升到9.2以上版本救急用的）<br>
+<img src="https://cdn.jsdelivr.net/gh/maonx/blog-images@main/3ds1.jpg" alt=""></p>
 </li>
 <li>
-<p>下载降级用固件，登陆<a href="http://jump.bdimg.com/safecheck/index?url=x+Z5mMbGPAtpOisSqSIIYADs8Sp45Qe8RK36g2sX2Ak2FSzlu0HOnct5khZV/RAsg/708v21+zC/hllZD+/bzDcjeanNNqzTYy8gP+ywerc21oZq7Iz2E5/MuLhNbUo2+1AQv64graAHRNM1HlEqS3Y9qHh6BM0y">http://www.gateway-3ds.com/downloads/ </a>在如图所示的位置下载主机区域所对应的固件CHN代表神游，JAP代表日版,USA代表美版,EUR代表欧版，TWN是港台版，KOR是韩版。下载以dg为后缀名的文件。将下载好的文件放在SD卡根目录里面。
-{% img <a href="http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-10.png">http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-10.png</a> 400 %}</p>
+<p>下载降级用固件，登陆<a href="http://jump.bdimg.com/safecheck/index?url=x+Z5mMbGPAtpOisSqSIIYADs8Sp45Qe8RK36g2sX2Ak2FSzlu0HOnct5khZV/RAsg/708v21+zC/hllZD+/bzDcjeanNNqzTYy8gP+ywerc21oZq7Iz2E5/MuLhNbUo2+1AQv64graAHRNM1HlEqS3Y9qHh6BM0y">http://www.gateway-3ds.com/downloads/ </a>在如图所示的位置下载主机区域所对应的固件CHN代表神游，JAP代表日版,USA代表美版,EUR代表欧版，TWN是港台版，KOR是韩版。下载以dg为后缀名的文件。将下载好的文件放在SD卡根目录里面。<br>
+<img src="https://cdn.jsdelivr.net/gh/maonx/blog-images@main/3ds2.jpg" alt=""></p>
 </li>
 <li>
 <p>将SD卡插加3DS，重新打开浏览器进入在线GATEWAY菜单，选择DOWNGRADE CONSOLE。会自动进行降级。降级后重启，我的美版3DS已经降到了4.2系统。
-DOWNGRADE CONSOLE {% img <a href="http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-15.jpg">http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-15.jpg</a> 400 %}
-成功降至4.2 {% img <a href="http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-9.jpg">http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-9.jpg</a> 400 %}</p>
+<img src="https://cdn.jsdelivr.net/gh/maonx/blog-images@main/3ds3.jpg" alt="DOWNGRADE CONSOLE" title="DOWNGRADE CONSOLE"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/maonx/blog-images@main/3ds4.jpg" alt="成功降至4.2" title="成功降至4.2"></p>
 </li>
 </ol>
 <h2 id="制作emunand虚拟系统">制作EMUNAND（虚拟系统）</h2>
 <ul>
-<li>首先将降级的4.2主机恢复出厂设置。</li>
-<li>将工具包中<code>GW_INSTALLER.nds</code>软件复制到R4内存卡。</li>
-<li>运行 <code>GW_INSTALLER.nds</code>及安装GATEWAY菜单
-{% img <a href="http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-17.jpg">http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-17.jpg</a> 400 %}
-{% img <a href="http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-1.jpg">http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-1.jpg</a> 400 %}
-{% img <a href="http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-18.jpg">http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-18.jpg</a> 400 %}</li>
-<li>开机进入系统设置，利用传统的4-1-4方法，进入Gateway菜单。
-{% img <a href="http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-4.png">http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-4.png</a> 400 %}</li>
-<li>进入Gateway菜单，选择FORMAT EMUNAND 开始安装虚拟系统， 等运行完毕提示完成，长按电源键关闭3DS。
-{% img <a href="http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-16.jpg">http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-16.jpg</a> 400 %}</li>
+<li>
+<p>首先将降级的4.2主机恢复出厂设置。</p>
+</li>
+<li>
+<p>将工具包中<code>GW_INSTALLER.nds</code>软件复制到R4内存卡。</p>
+</li>
+<li>
+<p>运行 <code>GW_INSTALLER.nds</code>及安装GATEWAY菜单
+<img src="https://cdn.jsdelivr.net/gh/maonx/blog-images@main/3ds5.jpg" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/maonx/blog-images@main/3ds6.jpg" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/maonx/blog-images@main/3ds7.jpg" alt=""></p>
+</li>
+<li>
+<p>开机进入系统设置，利用传统的4-1-4方法，进入Gateway菜单。
+<img src="https://cdn.jsdelivr.net/gh/maonx/blog-images@main/3ds8.jpg" alt=""></p>
+</li>
+<li>
+<p>进入Gateway菜单，选择FORMAT EMUNAND 开始安装虚拟系统， 等运行完毕提示完成，长按电源键关闭3DS。<br>
+<img src="https://cdn.jsdelivr.net/gh/maonx/blog-images@main/3ds9.jpg" alt=""></p>
+</li>
 </ul>
 <h2 id="安装rxtools">安装rxTools</h2>
 <ul>
-<li>取出SD卡，检查你的SD卡中Nintendo 3DS\xxxxxxxxxxxxxx\xxxxxxxxxxxxxx\dbs （xxxxx为随机字母列）路径下是否有import.db和title.db文件，如果没有，自行创建相应的空文件。这一步很重要一定要检查清楚，不存在的话会导致无法安装rxTools，然后将SD卡插回3DS，启动进入设置图标-&gt;查看数据管理-&gt;3DS软件数据管理，3DS主机会提示文件损坏，并确认修复，自行修复生成正确的db文件。</li>
-<li>打开工具包中的<code>rxTools v2.6</code>,复制<code>rxtools.dat</code>、<code>firmware.bin</code>和<code>slot0x25KeyX.bin</code>文件到SD卡根目录（<code>firmware.bin</code>可由<code>rxTools v2.6/tools/cdn_firm.py</code>生成最新版本）；将<code>rxinstaller.nds</code>复制到R4内存卡。</li>
-<li>插入R4卡，运行<code>rxinstaller.nds</code>安装
-{% img <a href="http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-11.jpg">http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-11.jpg</a> 400 %}
-{% img <a href="http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-2.jpg">http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-2.jpg</a> 400 %}
-{% img <a href="http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-13.jpg">http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-13.jpg</a> 400 %}</li>
+<li>
+<p>取出SD卡，检查你的SD卡中Nintendo 3DS\xxxxxxxxxxxxxx\xxxxxxxxxxxxxx\dbs （xxxxx为随机字母列）路径下是否有import.db和title.db文件，如果没有，自行创建相应的空文件。这一步很重要一定要检查清楚，不存在的话会导致无法安装rxTools，然后将SD卡插回3DS，启动进入设置图标-&gt;查看数据管理-&gt;3DS软件数据管理，3DS主机会提示文件损坏，并确认修复，自行修复生成正确的db文件。</p>
+</li>
+<li>
+<p>打开工具包中的<code>rxTools v2.6</code>,复制<code>rxtools.dat</code>、<code>firmware.bin</code>和<code>slot0x25KeyX.bin</code>文件到SD卡根目录（<code>firmware.bin</code>可由<code>rxTools v2.6/tools/cdn_firm.py</code>生成最新版本）；将<code>rxinstaller.nds</code>复制到R4内存卡。</p>
+</li>
+<li>
+<p>插入R4卡，运行<code>rxinstaller.nds</code>安装<br>
+<img src="https://cdn.jsdelivr.net/gh/maonx/blog-images@main/3ds10.jpg" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/maonx/blog-images@main/3ds11.jpg" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/maonx/blog-images@main/3ds12.jpg" alt=""></p>
+</li>
 </ul>
 <h2 id="升级虚拟系统到最新">升级虚拟系统到最新</h2>
 <ul>
 <li>此步骤也可以先略过，不过有可能会安装不了部分游戏因为版本太低，我直接先升级到了最新系统，也可以正常联网。</li>
 <li>开机按照 4-1-4方法会进入虚拟系统，最好真实系统和虚拟系统设置不同的主题和图标大小，能更好的分辨，避免在真实系统升级就惨了。</li>
-<li>进入虚拟系统后，进入设置查看版本号，确认是RX3D后打开无线升级虚拟系统到新，如果是Ver说明是真实系统千万不要升级。虚拟系统升级过程中最好是闭合3DS升级。
-{% img <a href="http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-5.jpg">http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-5.jpg</a> 400 %}</li>
+<li>进入虚拟系统后，进入设置查看版本号，确认是RX3D后打开无线升级虚拟系统到新，如果是Ver说明是真实系统千万不要升级。虚拟系统升级过程中最好是闭合3DS升级。<br>
+<img src="https://cdn.jsdelivr.net/gh/maonx/blog-images@main/3ds13.jpg" alt=""></li>
 <li>以后下载的游戏都是在虚拟系统中玩的。</li>
 </ul>
 <h2 id="安装fbi">安装FBI</h2>
 <ul>
-<li>更新系统完毕后，继续4-1-4操作进入rxTools界面，长按R进入rxToos菜单。
-{% img <a href="http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-7.jpg">http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-7.jpg</a> 400 %}</li>
-<li>进入Other Option，选择第二个选项安装FBI，按Y键打算安装在虚拟系统（一般都推荐安装在虚拟系统），会出现ERROR的英文单词，其中第三行英文“TMD Veraion:vXXXX”就是要记住的数字。
-{% img <a href="http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-12.jpg">http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-12.jpg</a> 400 %}
-{% img <a href="http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-14.jpg">http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-14.jpg</a> 400 %}</li>
-<li>关机取出SD卡，在工具包中<code>rxTools v2.6/fbi_injection/</code> 下进入对应3DS语言版本的文件夹，然后选择上一步需要记住数字的文件夹，把<code>fbi_inject</code>、<code>fbi_inject.tmd</code>两个文件复制到SD卡根目录，顺便复制一个小游戏，我复制了港版新马里奥兄弟2。</li>
-<li>继续开机，利用4-1-4进入rxTools菜单，长按R进入rxToos菜单，重新进入Other Option，选择第二个选项安装FBI，按Y键安装在虚拟系统，安装成功后，重新进入虚拟系统，打开健康安全软件就是FBI软件了（此处帖子也有安装BigBlueMenu.cia进行安装cia的，我没有安装，直接用默认FBI安装cia游戏的）
-{% img <a href="http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-6.jpg">http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-6.jpg</a> 400 %}</li>
+<li>
+<p>更新系统完毕后，继续4-1-4操作进入rxTools界面，长按R进入rxToos菜单。<br>
+<img src="https://cdn.jsdelivr.net/gh/maonx/blog-images@main/3ds14.jpg" alt=""></p>
+</li>
+<li>
+<p>进入Other Option，选择第二个选项安装FBI，按Y键打算安装在虚拟系统（一般都推荐安装在虚拟系统），会出现ERROR的英文单词，其中第三行英文“TMD Veraion:vXXXX”就是要记住的数字。<br>
+<img src="https://cdn.jsdelivr.net/gh/maonx/blog-images@main/3ds15.jpg" alt=""></p>
+<p><img src="https://cdn.jsdelivr.net/gh/maonx/blog-images@main/3ds16.jpg" alt=""></p>
+</li>
+<li>
+<p>关机取出SD卡，在工具包中<code>rxTools v2.6/fbi_injection/</code> 下进入对应3DS语言版本的文件夹，然后选择上一步需要记住数字的文件夹，把<code>fbi_inject</code>、<code>fbi_inject.tmd</code>两个文件复制到SD卡根目录，顺便复制一个小游戏，我复制了港版新马里奥兄弟2。</p>
+</li>
+<li>
+<p>继续开机，利用4-1-4进入rxTools菜单，长按R进入rxToos菜单，重新进入Other Option，选择第二个选项安装FBI，按Y键安装在虚拟系统，安装成功后，重新进入虚拟系统，打开健康安全软件就是FBI软件了（此处帖子也有安装BigBlueMenu.cia进行安装cia的，我没有安装，直接用默认FBI安装cia游戏的）<br>
+<img src="https://cdn.jsdelivr.net/gh/maonx/blog-images@main/3ds17.jpg" alt=""></p>
+</li>
 </ul>
 <h3 id="可以安装cia游戏下载包了">可以安装cia游戏下载包了</h3>
-<p>我一般去<a href="http://games.tgbus.com/3ds/">电玩巴士</a>下载CIA游戏，把CIA游戏复制到SD卡，打开健康安全软件进入FBI，可以直接选择你复制的CIA游戏进行安装了，安装时间有点慢，等等就好了，现在可以享受众多游戏了，玩不过来啊。
-{% img <a href="http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-3.jpg">http://7xnr2r.com1.z0.glb.clouddn.com/2015-10-27-3.jpg</a> 400 %}</p>
+<p>我一般去<a href="http://games.tgbus.com/3ds/">电玩巴士</a>下载CIA游戏，把CIA游戏复制到SD卡，打开健康安全软件进入FBI，可以直接选择你复制的CIA游戏进行安装了，安装时间有点慢，等等就好了，现在可以享受众多游戏了，玩不过来啊。<br>
+<img src="https://cdn.jsdelivr.net/gh/maonx/blog-images@main/3ds18.jpg" alt=""></p>
 <h2 id="注意事项">注意事项</h2>
 <ul>
 <li>最好不要在虚拟系统插R4烧录卡，会导致无法4-1-4进入虚拟系统。</li>
