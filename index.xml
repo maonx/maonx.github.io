@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maonx - My blog for recording and learning ...</title>
-    <link>http://localhost:1313/</link>
+    <link>https://maonx.xyz/</link>
     <description>Recent content on Maonx - My blog for recording and learning ...</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Apr 2021 19:21:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Apr 2021 19:21:00 +0800</lastBuildDate><atom:link href="https://maonx.xyz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>故障排除</title>
-      <link>http://localhost:1313/post/troubleshooting/</link>
+      <link>https://maonx.xyz/post/troubleshooting/</link>
       <pubDate>Fri, 02 Apr 2021 19:21:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/troubleshooting/</guid>
+      <guid>https://maonx.xyz/post/troubleshooting/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;单独使用这个文件来汇总碰到的问题和解决办法，方便后续的查询。&lt;/p&gt;
 &lt;/blockquote&gt;</description>
@@ -20,100 +20,100 @@
     
     <item>
       <title>Windows 10 上流畅使用 Emacs</title>
-      <link>http://localhost:1313/post/emacs-on-windows10/</link>
+      <link>https://maonx.xyz/post/emacs-on-windows10/</link>
       <pubDate>Sat, 27 Mar 2021 10:29:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/emacs-on-windows10/</guid>
+      <guid>https://maonx.xyz/post/emacs-on-windows10/</guid>
       <description>最近一直有在使用 Emacs，经过对比发现在 Windows 10 上使用 Emacs 真是太痛苦了，因为启动速度很慢很慢，我测试了一下， Windows 10 启动时间一般是 30 秒以上，Linu</description>
     </item>
     
     <item>
       <title>更换Homebrew更新源</title>
-      <link>http://localhost:1313/post/%E6%9B%B4%E6%8D%A2homebrew%E6%9B%B4%E6%96%B0%E6%BA%90/</link>
+      <link>https://maonx.xyz/post/%E6%9B%B4%E6%8D%A2homebrew%E6%9B%B4%E6%96%B0%E6%BA%90/</link>
       <pubDate>Sat, 05 Mar 2016 09:53:05 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E6%9B%B4%E6%8D%A2homebrew%E6%9B%B4%E6%96%B0%E6%BA%90/</guid>
+      <guid>https://maonx.xyz/post/%E6%9B%B4%E6%8D%A2homebrew%E6%9B%B4%E6%96%B0%E6%BA%90/</guid>
       <description>Homebrew是OS X不可或缺的包管理器，类似Linux上的包管理器比如apt-get, Homebrew的安装命令是brew。 国内安装用b</description>
     </item>
     
     <item>
       <title>记3DS游戏文件转CIA文件</title>
-      <link>http://localhost:1313/post/%E8%AE%B03ds%E6%B8%B8%E6%88%8F%E6%96%87%E4%BB%B6%E8%BD%ACcia%E6%96%87%E4%BB%B6/</link>
+      <link>https://maonx.xyz/post/%E8%AE%B03ds%E6%B8%B8%E6%88%8F%E6%96%87%E4%BB%B6%E8%BD%ACcia%E6%96%87%E4%BB%B6/</link>
       <pubDate>Wed, 02 Mar 2016 10:07:05 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E8%AE%B03ds%E6%B8%B8%E6%88%8F%E6%96%87%E4%BB%B6%E8%BD%ACcia%E6%96%87%E4%BB%B6/</guid>
+      <guid>https://maonx.xyz/post/%E8%AE%B03ds%E6%B8%B8%E6%88%8F%E6%96%87%E4%BB%B6%E8%BD%ACcia%E6%96%87%E4%BB%B6/</guid>
       <description>起因是一直说着要学习日语，突然看到3DS上要新的书写记忆 哆啦假名游戏，就非常想下载一个看看是怎么样的教学。然后找遍了所有资源都没有我可以用的</description>
     </item>
     
     <item>
       <title>树莓派上安装配置 Archlinux</title>
-      <link>http://localhost:1313/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE-archlinux/</link>
+      <link>https://maonx.xyz/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE-archlinux/</link>
       <pubDate>Fri, 26 Feb 2016 18:02:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE-archlinux/</guid>
+      <guid>https://maonx.xyz/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE-archlinux/</guid>
       <description>安装 Archlinux 安装 Archlinux 这部分在 Linux 系统中测试通过。 sdX 是 SD 卡盘符。 SD 卡分区 使用 fdisk 工具 # fdisk /dev/sdX 在 fdisk 提示命令下删除旧分区并新建： 按 o 删除全部分区 按 p 列出分区，此</description>
     </item>
     
     <item>
       <title>Hexo 使用笔记</title>
-      <link>http://localhost:1313/post/use-hexo/</link>
+      <link>https://maonx.xyz/post/use-hexo/</link>
       <pubDate>Tue, 05 Jan 2016 10:29:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/use-hexo/</guid>
+      <guid>https://maonx.xyz/post/use-hexo/</guid>
       <description>在Ubuntu Server上使用Hexo 安装 Node Js sudo apt-get install nodejs sudo apt-get install npm 安装 Hexo sudo npm install -g hexo-cli 若显示 /usr/bin/env: node: No such file or directory, 则输入 sudo ln -s &amp;quot;$(which nodejs)&amp;quot; /usr/bin/node 若安装时间过长没有反应</description>
     </item>
     
     <item>
       <title>Win7上编译安装64位Vim</title>
-      <link>http://localhost:1313/post/install-vim-x64-on-win7/</link>
+      <link>https://maonx.xyz/post/install-vim-x64-on-win7/</link>
       <pubDate>Sun, 13 Dec 2015 13:31:54 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/install-vim-x64-on-win7/</guid>
+      <guid>https://maonx.xyz/post/install-vim-x64-on-win7/</guid>
       <description>前提 想找一个64位的Vim并且支持Python和Lua功能不容易，所以研究了一天，查了不少资料，终于成功编译，记录一下。 编译环境选择和安装 选</description>
     </item>
     
     <item>
       <title>树莓派设置无线</title>
-      <link>http://localhost:1313/post/set-wifi-on-raspberry-pi/</link>
+      <link>https://maonx.xyz/post/set-wifi-on-raspberry-pi/</link>
       <pubDate>Mon, 23 Nov 2015 09:37:45 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/set-wifi-on-raspberry-pi/</guid>
+      <guid>https://maonx.xyz/post/set-wifi-on-raspberry-pi/</guid>
       <description>家里闲置的树莓派一直没有什么新的作用，突然想到一个新的想法，所以准备先给树莓派连上无线。 检测无线网卡 我的无线网卡牌子是磊科 NW362, 可以直接在树莓派</description>
     </item>
     
     <item>
       <title>黑苹果Yosemite直接升级到EI Capitan</title>
-      <link>http://localhost:1313/post/yosemite-upgrade-ei/</link>
+      <link>https://maonx.xyz/post/yosemite-upgrade-ei/</link>
       <pubDate>Tue, 03 Nov 2015 23:18:05 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/yosemite-upgrade-ei/</guid>
+      <guid>https://maonx.xyz/post/yosemite-upgrade-ei/</guid>
       <description>本机原系统黑苹果Yosemite，准备升级EI Capitan，主要资料参考网站：tonymacx86。 制作EI Capitan启动U盘 登录Ap</description>
     </item>
     
     <item>
       <title>3DSXL 美版无卡降级及破解过程</title>
-      <link>http://localhost:1313/post/3dsxl-downgrade-jailbreak/</link>
+      <link>https://maonx.xyz/post/3dsxl-downgrade-jailbreak/</link>
       <pubDate>Tue, 27 Oct 2015 10:29:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/3dsxl-downgrade-jailbreak/</guid>
+      <guid>https://maonx.xyz/post/3dsxl-downgrade-jailbreak/</guid>
       <description>前些日子听我弟说他买了New 3DSLL，准备玩正版，虽然我自己也是玩正版，不过更喜欢破解后的汉化，这样可以玩中文游戏。因一直工作比较忙，都没</description>
     </item>
     
     <item>
       <title>安装Vim插件vim-airline</title>
-      <link>http://localhost:1313/post/install-vim-powerline-md/</link>
+      <link>https://maonx.xyz/post/install-vim-powerline-md/</link>
       <pubDate>Sun, 25 Oct 2015 23:03:27 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/install-vim-powerline-md/</guid>
+      <guid>https://maonx.xyz/post/install-vim-powerline-md/</guid>
       <description>最近因为家里用的是OSX，公司用的是Win7，所以Vim的有些配置不是挺方便，在Github上面看了amix和spf13两位的配置后感觉比较</description>
     </item>
     
     <item>
       <title>黑苹果安装及基本配置</title>
-      <link>http://localhost:1313/post/install-osx-hacktoish/</link>
+      <link>https://maonx.xyz/post/install-osx-hacktoish/</link>
       <pubDate>Tue, 11 Aug 2015 11:15:27 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/install-osx-hacktoish/</guid>
+      <guid>https://maonx.xyz/post/install-osx-hacktoish/</guid>
       <description>购买主机配件 购买配件前基本都参考了 http://www.tonymacx86.com。 配件列表: 配件名称 型号 价格 CPU I5-4590 1073 散热器 九州风神玄冰40</description>
     </item>
     

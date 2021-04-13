@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vim on Maonx - My blog for recording and learning ...</title>
-    <link>http://localhost:1313/tags/vim/</link>
+    <link>https://maonx.xyz/tags/vim/</link>
     <description>Recent content in Vim on Maonx - My blog for recording and learning ...</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Dec 2015 13:31:54 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/vim/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Dec 2015 13:31:54 +0800</lastBuildDate><atom:link href="https://maonx.xyz/tags/vim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Win7上编译安装64位Vim</title>
-      <link>http://localhost:1313/post/install-vim-x64-on-win7/</link>
+      <link>https://maonx.xyz/post/install-vim-x64-on-win7/</link>
       <pubDate>Sun, 13 Dec 2015 13:31:54 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/install-vim-x64-on-win7/</guid>
+      <guid>https://maonx.xyz/post/install-vim-x64-on-win7/</guid>
       <description>前提 想找一个64位的Vim并且支持Python和Lua功能不容易，所以研究了一天，查了不少资料，终于成功编译，记录一下。 编译环境选择和安装 选</description>
     </item>
     
     <item>
       <title>安装Vim插件vim-airline</title>
-      <link>http://localhost:1313/post/install-vim-powerline-md/</link>
+      <link>https://maonx.xyz/post/install-vim-powerline-md/</link>
       <pubDate>Sun, 25 Oct 2015 23:03:27 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/install-vim-powerline-md/</guid>
+      <guid>https://maonx.xyz/post/install-vim-powerline-md/</guid>
       <description>最近因为家里用的是OSX，公司用的是Win7，所以Vim的有些配置不是挺方便，在Github上面看了amix和spf13两位的配置后感觉比较</description>
     </item>
     

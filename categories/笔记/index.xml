@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>笔记 on Maonx - My blog for recording and learning ...</title>
-    <link>http://localhost:1313/categories/%E7%AC%94%E8%AE%B0/</link>
+    <link>https://maonx.xyz/categories/%E7%AC%94%E8%AE%B0/</link>
     <description>Recent content in 笔记 on Maonx - My blog for recording and learning ...</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 05 Jan 2016 10:29:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jan 2016 10:29:00 +0800</lastBuildDate><atom:link href="https://maonx.xyz/categories/%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hexo 使用笔记</title>
-      <link>http://localhost:1313/post/use-hexo/</link>
+      <link>https://maonx.xyz/post/use-hexo/</link>
       <pubDate>Tue, 05 Jan 2016 10:29:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/use-hexo/</guid>
+      <guid>https://maonx.xyz/post/use-hexo/</guid>
       <description>在Ubuntu Server上使用Hexo 安装 Node Js sudo apt-get install nodejs sudo apt-get install npm 安装 Hexo sudo npm install -g hexo-cli 若显示 /usr/bin/env: node: No such file or directory, 则输入 sudo ln -s &amp;quot;$(which nodejs)&amp;quot; /usr/bin/node 若安装时间过长没有反应</description>
     </item>
     

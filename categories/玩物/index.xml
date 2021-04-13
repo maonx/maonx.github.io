@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>玩物 on Maonx - My blog for recording and learning ...</title>
-    <link>http://localhost:1313/categories/%E7%8E%A9%E7%89%A9/</link>
+    <link>https://maonx.xyz/categories/%E7%8E%A9%E7%89%A9/</link>
     <description>Recent content in 玩物 on Maonx - My blog for recording and learning ...</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2015 09:37:45 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E7%8E%A9%E7%89%A9/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Nov 2015 09:37:45 +0800</lastBuildDate><atom:link href="https://maonx.xyz/categories/%E7%8E%A9%E7%89%A9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>树莓派设置无线</title>
-      <link>http://localhost:1313/post/set-wifi-on-raspberry-pi/</link>
+      <link>https://maonx.xyz/post/set-wifi-on-raspberry-pi/</link>
       <pubDate>Mon, 23 Nov 2015 09:37:45 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/set-wifi-on-raspberry-pi/</guid>
+      <guid>https://maonx.xyz/post/set-wifi-on-raspberry-pi/</guid>
       <description>家里闲置的树莓派一直没有什么新的作用，突然想到一个新的想法，所以准备先给树莓派连上无线。 检测无线网卡 我的无线网卡牌子是磊科 NW362, 可以直接在树莓派</description>
     </item>
     

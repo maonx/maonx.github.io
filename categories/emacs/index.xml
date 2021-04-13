@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Emacs on Maonx - My blog for recording and learning ...</title>
-    <link>http://localhost:1313/categories/emacs/</link>
+    <link>https://maonx.xyz/categories/emacs/</link>
     <description>Recent content in Emacs on Maonx - My blog for recording and learning ...</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 27 Mar 2021 10:29:00 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Mar 2021 10:29:00 +0800</lastBuildDate><atom:link href="https://maonx.xyz/categories/emacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows 10 上流畅使用 Emacs</title>
-      <link>http://localhost:1313/post/emacs-on-windows10/</link>
+      <link>https://maonx.xyz/post/emacs-on-windows10/</link>
       <pubDate>Sat, 27 Mar 2021 10:29:00 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/emacs-on-windows10/</guid>
+      <guid>https://maonx.xyz/post/emacs-on-windows10/</guid>
       <description>最近一直有在使用 Emacs，经过对比发现在 Windows 10 上使用 Emacs 真是太痛苦了，因为启动速度很慢很慢，我测试了一下， Windows 10 启动时间一般是 30 秒以上，Linu</description>
     </item>
     
