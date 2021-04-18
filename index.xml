@@ -6,7 +6,17 @@
     <description>Recent content on Maonx - My blog for recording and learning ...</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Apr 2021 23:35:00 +0800</lastBuildDate><atom:link href="https://maonx.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Apr 2021 11:47:00 +0800</lastBuildDate><atom:link href="https://maonx.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Doom emacs 使用笔记</title>
+      <link>https://maonx.xyz/post/doom-emacs-%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Wed, 14 Apr 2021 11:47:00 +0800</pubDate>
+      
+      <guid>https://maonx.xyz/post/doom-emacs-%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</guid>
+      <description>&lt;p&gt;从 Vim 转到了 Emacs, 试用了不少配置，最后觉得 Doom emacs 挺合适的，然后慢慢习惯
+试用它，在此记录一些使用的经验。&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Hello, Hugo</title>
       <link>https://maonx.xyz/post/hello-hugo/</link>
@@ -22,7 +32,9 @@
       <pubDate>Fri, 02 Apr 2021 19:21:00 +0800</pubDate>
       
       <guid>https://maonx.xyz/post/troubleshooting/</guid>
-      <description>&lt;blockquote&gt;
+      <description>&lt;p&gt;目前主要使用环境：Windows10 + WSL2 + VcXsrv + Emacs27.2
+Emacs 主要使用 &lt;a href=&#34;https://github.com/hlissner/doom-emacs&#34;&gt;Doom emacs&lt;/a&gt; 配置&lt;/p&gt;
+&lt;blockquote&gt;
 &lt;p&gt;单独使用这个文件来汇总碰到的问题和解决办法，方便后续的查询。&lt;/p&gt;
 &lt;/blockquote&gt;</description>
     </item>
@@ -34,6 +46,15 @@
       
       <guid>https://maonx.xyz/post/emacs-on-windows10/</guid>
       <description>最近一直有在使用 Emacs，经过对比发现在 Windows 10 上使用 Emacs 真是太痛苦了，因为启动速度很慢很慢，我测试了一下， Windows 10 启动时间一般是 30 秒以上，Linu</description>
+    </item>
+    
+    <item>
+      <title>幻想生活自用中文维基</title>
+      <link>https://maonx.xyz/post/%E5%B9%BB%E6%83%B3%E7%94%9F%E6%B4%BB%E8%87%AA%E7%94%A8%E4%B8%AD%E6%96%87%E7%BB%B4%E5%9F%BA/</link>
+      <pubDate>Tue, 25 Apr 2017 23:03:00 +0800</pubDate>
+      
+      <guid>https://maonx.xyz/post/%E5%B9%BB%E6%83%B3%E7%94%9F%E6%B4%BB%E8%87%AA%E7%94%A8%E4%B8%AD%E6%96%87%E7%BB%B4%E5%9F%BA/</guid>
+      <description>简介 本作是由 Brownie Brown 公司与 Level-5 所共同开发，同时更邀请到日本之前曾经参与制作 FF 系列音乐的知名音乐家植松伸夫负责本作音乐部份，并由同样 FF 系列中玩家们所</description>
     </item>
     
     <item>
