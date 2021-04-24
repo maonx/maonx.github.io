@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Maonx - My blog for recording and learning ...</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Apr 2017 23:03:00 +0800</lastBuildDate><atom:link href="https://maonx.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Apr 2021 11:24:00 +0800</lastBuildDate><atom:link href="https://maonx.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>emacs</title>
+      <link>https://maonx.xyz/tags/emacs/</link>
+      <pubDate>Sat, 24 Apr 2021 11:24:00 +0800</pubDate>
+      
+      <guid>https://maonx.xyz/tags/emacs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WSL</title>
+      <link>https://maonx.xyz/tags/wsl/</link>
+      <pubDate>Sat, 24 Apr 2021 11:24:00 +0800</pubDate>
+      
+      <guid>https://maonx.xyz/tags/wsl/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>3DS</title>
       <link>https://maonx.xyz/tags/3ds/</link>

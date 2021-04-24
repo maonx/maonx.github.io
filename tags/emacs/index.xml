@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>emacs on Maonx - My blog for recording and learning ...</title>
+    <link>https://maonx.xyz/tags/emacs/</link>
+    <description>Recent content in emacs on Maonx - My blog for recording and learning ...</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 24 Apr 2021 11:24:00 +0800</lastBuildDate><atom:link href="https://maonx.xyz/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows10 WSL2 上体验自带 GUI 应用支持</title>
+      <link>https://maonx.xyz/post/windows10-wsl2-%E4%B8%8A%E4%BD%93%E9%AA%8C%E8%87%AA%E5%B8%A6-gui-%E5%BA%94%E7%94%A8%E6%94%AF%E6%8C%81/</link>
+      <pubDate>Sat, 24 Apr 2021 11:24:00 +0800</pubDate>
+      
+      <guid>https://maonx.xyz/post/windows10-wsl2-%E4%B8%8A%E4%BD%93%E9%AA%8C%E8%87%AA%E5%B8%A6-gui-%E5%BA%94%E7%94%A8%E6%94%AF%E6%8C%81/</guid>
+      <description>今天看到消息微软宣布 WSL 上默认支持 GUI 应用了，看到这个消息挺高兴的，不知道自带的效果如何，立马准备安装体验。系统需要 Windows 10 Insiders preview build 21364 or higher 。 加入 Windows 预览</description>
+    </item>
+    
+  </channel>
+</rss>

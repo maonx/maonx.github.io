@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Doom emacs 使用笔记 - Maonx - My blog for recording and learning ...</title>
+  <title>Windows10 WSL2 上体验自带 GUI 应用支持 - Maonx - My blog for recording and learning ...</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,8 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="maonx" /><meta name="description" content="从 Vim 转到了 Emacs, 试用了不少配置，最后觉得 Doom emacs 挺合适的，然后慢慢习惯 试用它，在此记录一些使用的经验。
-" /><meta name="keywords" content="maonx, 生活, 记录" />
+<meta name="author" content="maonx" /><meta name="description" content="今天看到消息微软宣布 WSL 上默认支持 GUI 应用了，看到这个消息挺高兴的，不知道自带的效果如何，立马准备安装体验。系统需要 Windows 10 Insiders preview build 21364 or higher 。 加入 Windows 预览" /><meta name="keywords" content="maonx, 生活, 记录" />
 
 
 
@@ -27,7 +26,7 @@
 <meta name="generator" content="Hugo 0.82.0 with theme even" />
 
 
-<link rel="canonical" href="https://maonx.xyz/post/doom-emacs-%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/" />
+<link rel="canonical" href="https://maonx.xyz/post/windows10-wsl2-%E4%B8%8A%E4%BD%93%E9%AA%8C%E8%87%AA%E5%B8%A6-gui-%E5%BA%94%E7%94%A8%E6%94%AF%E6%8C%81/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -40,23 +39,20 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="Doom emacs 使用笔记" />
-<meta property="og:description" content="从 Vim 转到了 Emacs, 试用了不少配置，最后觉得 Doom emacs 挺合适的，然后慢慢习惯
-试用它，在此记录一些使用的经验。" />
+<meta property="og:title" content="Windows10 WSL2 上体验自带 GUI 应用支持" />
+<meta property="og:description" content="今天看到消息微软宣布 WSL 上默认支持 GUI 应用了，看到这个消息挺高兴的，不知道自带的效果如何，立马准备安装体验。系统需要 Windows 10 Insiders preview build 21364 or higher 。 加入 Windows 预览" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://maonx.xyz/post/doom-emacs-%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2021-04-14T11:47:00&#43;08:00" />
-<meta property="article:modified_time" content="2021-04-24T11:25:01&#43;08:00" />
+<meta property="og:url" content="https://maonx.xyz/post/windows10-wsl2-%E4%B8%8A%E4%BD%93%E9%AA%8C%E8%87%AA%E5%B8%A6-gui-%E5%BA%94%E7%94%A8%E6%94%AF%E6%8C%81/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-04-24T11:24:00&#43;08:00" />
+<meta property="article:modified_time" content="2021-04-24T12:30:28&#43;08:00" />
 
-<meta itemprop="name" content="Doom emacs 使用笔记">
-<meta itemprop="description" content="从 Vim 转到了 Emacs, 试用了不少配置，最后觉得 Doom emacs 挺合适的，然后慢慢习惯
-试用它，在此记录一些使用的经验。"><meta itemprop="datePublished" content="2021-04-14T11:47:00&#43;08:00" />
-<meta itemprop="dateModified" content="2021-04-24T11:25:01&#43;08:00" />
-<meta itemprop="wordCount" content="114">
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Doom emacs 使用笔记"/>
-<meta name="twitter:description" content="从 Vim 转到了 Emacs, 试用了不少配置，最后觉得 Doom emacs 挺合适的，然后慢慢习惯
-试用它，在此记录一些使用的经验。"/>
+<meta itemprop="name" content="Windows10 WSL2 上体验自带 GUI 应用支持">
+<meta itemprop="description" content="今天看到消息微软宣布 WSL 上默认支持 GUI 应用了，看到这个消息挺高兴的，不知道自带的效果如何，立马准备安装体验。系统需要 Windows 10 Insiders preview build 21364 or higher 。 加入 Windows 预览"><meta itemprop="datePublished" content="2021-04-24T11:24:00&#43;08:00" />
+<meta itemprop="dateModified" content="2021-04-24T12:30:28&#43;08:00" />
+<meta itemprop="wordCount" content="541">
+<meta itemprop="keywords" content="emacs,WSL," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Windows10 WSL2 上体验自带 GUI 应用支持"/>
+<meta name="twitter:description" content="今天看到消息微软宣布 WSL 上默认支持 GUI 应用了，看到这个消息挺高兴的，不知道自带的效果如何，立马准备安装体验。系统需要 Windows 10 Insiders preview build 21364 or higher 。 加入 Windows 预览"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -129,10 +125,10 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Doom emacs 使用笔记</h1>
+      <h1 class="post-title">Windows10 WSL2 上体验自带 GUI 应用支持</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2021-04-14 </span>
+        <span class="post-time"> 2021-04-24 </span>
         
         
       </div>
@@ -145,7 +141,10 @@
   <ul>
     <li>
       <ul>
-        <li><a href="#快捷键">快捷键</a></li>
+        <li><a href="#加入-windows-预览体验计划">加入 Windows 预览体验计划</a></li>
+        <li><a href="#更新-wsl">更新 WSL</a></li>
+        <li><a href="#大功告成">大功告成</a></li>
+        <li><a href="#使用体验">使用体验</a></li>
       </ul>
     </li>
   </ul>
@@ -153,45 +152,52 @@
   </div>
 </div>
     <div class="post-content">
-      <p>从 Vim 转到了 Emacs, 试用了不少配置，最后觉得 Doom emacs 挺合适的，然后慢慢习惯
-试用它，在此记录一些使用的经验。</p>
-<h2 id="快捷键">快捷键</h2>
-<table>
-<thead>
-<tr>
-<th>快捷键</th>
-<th>对应命令</th>
-<th>功能</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>c-x c-e</td>
-<td>eval-last-sexp</td>
-<td>执行 elisp 代码</td>
-</tr>
-<tr>
-<td>c-&lt;h,j,k,l&gt;</td>
-<td></td>
-<td>日历表日期选择</td>
-</tr>
-<tr>
-<td>spc-m-l-l</td>
-<td>org-insert-link</td>
-<td>添加链接或修改链接</td>
-</tr>
-<tr>
-<td>spc-m-b-c</td>
-<td>org-table-create-or-convert-from-region</td>
-<td>将选择区域转换成表格或新建表格</td>
-</tr>
-<tr>
-<td>spc-m-b&ndash;</td>
-<td>org-table-insert-hline</td>
-<td>插入表格水平分割线</td>
-</tr>
-</tbody>
-</table>
+      <p>今天看到<a href="https://devblogs.microsoft.com/commandline/the-initial-preview-of-gui-app-support-is-now-available-for-the-windows-subsystem-for-linux-2/">消息</a>微软宣布 WSL 上默认支持 GUI 应用了，看到这个消息挺高兴的，不知道自带的效果如何，立马准备安装体验。系统需要 Windows 10 Insiders preview build 21364 or higher 。</p>
+<h2 id="加入-windows-预览体验计划">加入 Windows 预览体验计划</h2>
+<ol>
+<li>在 <code>设置 &gt; 更新和安全 &gt; Windows 预览体验计划</code> 中选择 <code>开始</code> 按钮</li>
+<li>选择连接一个 Microsoft 账户，登录</li>
+<li>选择 <code>Dev 通道</code></li>
+<li>按系统提示重启</li>
+<li>在 <code>设置 &gt; 更新和安全 &gt; Windows 更新</code> 中安装最新更新</li>
+</ol>
+<p>如果打开 Windows 预览体验计划是空白状态，在 <code>设置 &gt; 隐私 &gt; 诊断与反馈</code> 中，打开 <code>发送必需和可选诊断数据</code> ，应该就可以了。</p>
+<h2 id="更新-wsl">更新 WSL</h2>
+<p>打开管理员权限的 Powershell</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">wsl</span> <span class="p">-</span><span class="n">-update</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>等待更新完成。强制关闭 wsl 重启。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-powershell" data-lang="powershell"><span class="n">wsl</span> <span class="p">-</span><span class="n">-shutdown</span>
+<span class="n">wsl</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="大功告成">大功告成</h2>
+<p>我在 WSL 中只安装了一个 Emacs，因为目前只用到这个，现在可以打开开始菜单，可以直接找到 Emacs 的应用图标，可以直接点击使用了。<br>
+<img src="https://cdn.jsdelivr.net/gh/maonx/blog-images@main/screenshot42301.png" alt=""></p>
+<p>可以考虑放弃使用 <code>vcxsrv</code> 这些软件了。😄<br>
+<img src="https://cdn.jsdelivr.net/gh/maonx/blog-images@main/DoomEmacs.png" alt=""></p>
+<h2 id="使用体验">使用体验</h2>
+<p>开始使用还没发现问题，但用了一天下来后，碰到的问题，还不能使用，还是得靠 <code>vcxsrv</code> , 现实打脸。 😭</p>
+<ul>
+<li>会不明原因崩溃，需要杀进程，重开。</li>
+<li>有时点图标，不能正常打开应用，需要重启 <code>wsl</code> 。</li>
+<li>文件名如果是中文，显示标题会乱码。</li>
+<li>如果内容有中文，复制到 Windows 后会乱码，Emacs 内不管编码是 UTF8 还是 cp936 ，感觉只要复制出去中文就会乱码，用 <code>vcxsrv</code> 就不会有这个问题。</li>
+</ul>
+<p>总结下来，这个还是不能直接使用，暂时继续使用 <code>vcxsrv</code> 来管理显示 GUI，除了长时间不用会无故消失要重新打开应用外，没有其它的大问题。等微软更新看看。</p>
+
     </div>
 
     <div class="post-copyright">
@@ -224,15 +230,14 @@
       </label>
   </div>
 </div><footer class="post-footer">
-      
+      <div class="post-tags">
+          <a href="/tags/emacs/">emacs</a>
+          <a href="/tags/wsl/">WSL</a>
+          </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/windows10-wsl2-%E4%B8%8A%E4%BD%93%E9%AA%8C%E8%87%AA%E5%B8%A6-gui-%E5%BA%94%E7%94%A8%E6%94%AF%E6%8C%81/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">Windows10 WSL2 上体验自带 GUI 应用支持</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
-        <a class="next" href="/post/hello-hugo/">
-            <span class="next-text nav-default">Hello, Hugo</span>
+        
+        <a class="next" href="/post/doom-emacs-%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/">
+            <span class="next-text nav-default">Doom emacs 使用笔记</span>
             <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>
