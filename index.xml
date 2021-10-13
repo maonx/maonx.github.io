@@ -22,7 +22,7 @@
       <pubDate>Wed, 14 Apr 2021 11:47:00 +0800</pubDate>
       
       <guid>https://maonx.xyz/post/doom-emacs-%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/</guid>
-      <description>&lt;p&gt;从 Vim 转到了 Emacs, 试用了不少配置，最后觉得 Doom emacs 挺合适的，然后慢慢习惯
+      <description>&lt;p&gt;从 Vim 转到了 Emacs, 试用了不少配置，最后觉得 Doom emacs 挺合适的，然后慢慢习惯&lt;br&gt;
 试用它，在此记录一些使用的经验。&lt;/p&gt;</description>
     </item>
     
@@ -41,8 +41,7 @@
       <pubDate>Fri, 02 Apr 2021 19:21:00 +0800</pubDate>
       
       <guid>https://maonx.xyz/post/troubleshooting/</guid>
-      <description>&lt;p&gt;目前主要使用环境：Windows10 + WSL2 + VcXsrv + Emacs27.2
-Emacs 主要使用 &lt;a href=&#34;https://github.com/hlissner/doom-emacs&#34;&gt;Doom emacs&lt;/a&gt; 配置&lt;/p&gt;
+      <description>&lt;p&gt;目前主要使用环境：Windows10 + WSL2 + VcXsrv + Emacs27.2 Emacs 主要使用 &lt;a href=&#34;https://github.com/hlissner/doom-emacs&#34;&gt;Doom emacs&lt;/a&gt; 配置&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;单独使用这个文件来汇总碰到的问题和解决办法，方便后续的查询。&lt;/p&gt;
 &lt;/blockquote&gt;</description>

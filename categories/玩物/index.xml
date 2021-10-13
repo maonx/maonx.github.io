@@ -6,7 +6,16 @@
     <description>Recent content in 玩物 on Maonx - My blog for recording and learning ...</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Nov 2015 09:37:45 +0800</lastBuildDate><atom:link href="https://maonx.xyz/categories/%E7%8E%A9%E7%89%A9/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Feb 2016 18:02:00 +0800</lastBuildDate><atom:link href="https://maonx.xyz/categories/%E7%8E%A9%E7%89%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>树莓派上安装配置 Archlinux</title>
+      <link>https://maonx.xyz/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE-archlinux/</link>
+      <pubDate>Fri, 26 Feb 2016 18:02:00 +0800</pubDate>
+      
+      <guid>https://maonx.xyz/post/%E6%A0%91%E8%8E%93%E6%B4%BE%E4%B8%8A%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE-archlinux/</guid>
+      <description>安装 Archlinux 安装 Archlinux 这部分在 Linux 系统中测试通过。 sdX 是 SD 卡盘符。 SD 卡分区 使用 fdisk 工具 # fdisk /dev/sdX 在 fdisk 提示命令下删除旧分区并新建： 按 o 删除全部分区 按 p 列出分区，此</description>
+    </item>
+    
     <item>
       <title>树莓派设置无线</title>
       <link>https://maonx.xyz/post/set-wifi-on-raspberry-pi/</link>
